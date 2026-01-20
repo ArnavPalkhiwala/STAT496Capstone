@@ -1,0 +1,25 @@
+﻿1. “Telephone” Using written sources instead of photos
+   1. Collect written public sources such as blogs, essays, papers, etc.
+   2. Have the LLM summarize the source, and then use the summary as the prompt to generate an essay or blog (etc.). Repeating this process a reasonably large number of times.
+   3. We would then compare the final output to the original source to see how it changes, and then also compare it to other outputs to look for similar convergences (or other general similarities)
+
+   2. Few-shot vs. zero-shot prompting to help make decisions 
+   1. We use LLMs a lot these days for judging and assessing people, scores, etc. 
+   2. We can assess LLMs in different scenarios, such as Resume evaluation, exam grading, and even more specifically, like loan approval 
+   3. Evaluate how they perform in few-shot and zero-shot scenarios to evaluate the impact that providing further context and examples can add
+
+      3. Are models more likely to answer conservatively to questions they don’t know the answer to, based on the domain?
+      1. Ask questions that are either personal or impossible for them to answer 
+      1. Do they say they don’t know
+      2. Or do they hallucinate 
+      3. How does this change based on the situation and topic
+      2. Think about sensitive topics such as critical medical needs vs. general research/conversation
+
+         4. How does the system prompt impact the way LLMs answer specific questions 
+         1. Does changing it dramatically impact the quality of the output
+         2. Look at more specific examples
+
+            5. Does the order in which information is presented affect how LLMs judge, score, or decide?
+            1. Resume evaluation, essay grading with a rubric, etc.
+            2. Create multiple versions of the content, but rearranged
+            3. Analyze the scores the LLM generates for different variations
