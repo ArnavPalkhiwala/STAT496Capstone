@@ -1,3 +1,9 @@
+<h2>What This Folder Contains:</h2>
+
+- Reflection Samples that we used for our test run  [(see here)](https://github.com/ArnavPalkhiwala/STAT496Capstone/tree/main/test_experiment/reflection_samples)
+- Jupyter Notebook containing code to run experiment and analyze output [(see here)](https://github.com/ArnavPalkhiwala/STAT496Capstone/blob/main/test_experiment/Run%20Test%20Experiments.ipynb)
+- Output folder with the results [(see here)](https://github.com/ArnavPalkhiwala/STAT496Capstone/tree/main/test_experiment#:~:text=..-,outputs,-add%20results%20from)
+
 <h2> Our Prompt (using Gemini API): </h2>  
 
 You are a college-level writing instructor grading a student reflection essay.
