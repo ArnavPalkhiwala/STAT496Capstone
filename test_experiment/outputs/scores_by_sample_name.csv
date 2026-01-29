@@ -1,0 +1,11 @@
+sample_name,fewshot_original,fewshot_reversed,zeroshot_original,zeroshot_reversed
+bad_example_copy.pdf,1,1,2,2
+mid_example_copy.pdf,5,5,5,7
+sample1.pdf,8,7,8,8
+sample2.pdf,9,9,8,8
+sample3.pdf,8,8,9,9
+sample4.pdf,7,7,7,8
+sample5.pdf,8,8,9,9
+sample6.pdf,8,8,9,9
+sample7.pdf,8,8,9,9
+sample8.pdf,8,8,9,9

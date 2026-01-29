@@ -1,0 +1,521 @@
+id,sample_name,position_in_run,mode,order,pred_score,justification,clamped,raw_json
+sample1.pdf,sample1.pdf,0,fewshot,original,8,"The essay demonstrates a solid understanding of neural networks and their associated concepts, with clear and concise explanations. The structure is logical, moving from summary to concepts to uncertainties. The uncertainties section shows thoughtful engagement with areas needing further clarification.",False,"[
+  {
+    ""id"": ""sample1.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay demonstrates a solid understanding of neural networks and their associated concepts, with clear and concise explanations. The structure is logical, moving from summary to concepts to uncertainties. The uncertainties section shows thoughtful engagement with areas needing further clarification.""
+  },
+  {
+    ""id"": ""sample2.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection is comprehensive, detailing multiple regression, F-tests, and classification concepts with mathematical underpinnings. The content is specific, well-aligned with statistical learning principles, and demonstrates a deep understanding of the week's material. The uncertainties section is insightful, indicating a desire for deeper, practical application.""
+  },
+  {
+    ""id"": ""sample3.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay effectively summarizes and explains concepts related to decision trees and ensemble methods with good clarity. The structure is logical, and the uncertainties section shows a good grasp of nuanced decision-making in model selection and hyperparameter tuning.""
+  },
+  {
+    ""id"": ""sample4.pdf"",
+    ""pred_score"": 7,
+    ""justification"": ""This reflection clearly articulates the concepts of resampling methods, cross-validation, and the bootstrap. The summary is concise and the explanations of concepts are accurate. The single uncertainty question is relevant and indicates a good understanding of the practical application of these techniques.""
+  },
+  {
+    ""id"": ""sample5.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay provides a well-structured summary and clear explanations of various model selection and regularization techniques. The concepts are accurately described, and the uncertainties section shows a thoughtful consideration of practical application and decision-making between different methods.""
+  },
+  {
+    ""id"": ""sample6.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection effectively summarizes and explains various methods for modeling non-linear relationships, including splines and GAMs. The concepts are well-defined and organized logically. The uncertainties section demonstrates a good understanding of practical challenges in model tuning.""
+  },
+  {
+    ""id"": ""sample7.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay provides a clear and well-organized summary of tree-based and ensemble methods. The concepts are accurately described, and the uncertainties section demonstrates a good understanding of the practical challenges involved in tuning boosting algorithms.""
+  },
+  {
+    ""id"": ""sample8.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection offers a strong summary and detailed explanation of unsupervised learning, particularly PCA. The concepts are accurately described with appropriate technical terms. The uncertainties section shows a clear understanding of the practical considerations and decision-making involved in applying PCA.""
+  },
+  {
+    ""id"": ""bad_example_copy.pdf"",
+    ""pred_score"": 1,
+    ""justification"": ""This essay demonstrates a fundamental lack of understanding and engagement with the course material. The language is vague, lacks specificity, and shows no grasp of the concepts discussed. The 'uncertainties' section reflects a complete lack of comprehension rather than a desire for clarification.""
+  },
+  {
+    ""id"": ""mid_example_copy.pdf"",
+    ""pred_score"": 5,
+    ""justification"": ""This reflection offers a basic summary of the transition from regression to classification and introduces two classification concepts. While it touches upon the week's topics, the explanations are somewhat superficial, and the understanding of discriminant analysis is limited. The single uncertainty question is relevant but indicates a need for more foundational knowledge.""
+  }
+]"
+sample2.pdf,sample2.pdf,1,fewshot,original,9,"This reflection is comprehensive, detailing multiple regression, F-tests, and classification concepts with mathematical underpinnings. The content is specific, well-aligned with statistical learning principles, and demonstrates a deep understanding of the week's material. The uncertainties section is insightful, indicating a desire for deeper, practical application.",False,"[
+  {
+    ""id"": ""sample1.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay demonstrates a solid understanding of neural networks and their associated concepts, with clear and concise explanations. The structure is logical, moving from summary to concepts to uncertainties. The uncertainties section shows thoughtful engagement with areas needing further clarification.""
+  },
+  {
+    ""id"": ""sample2.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection is comprehensive, detailing multiple regression, F-tests, and classification concepts with mathematical underpinnings. The content is specific, well-aligned with statistical learning principles, and demonstrates a deep understanding of the week's material. The uncertainties section is insightful, indicating a desire for deeper, practical application.""
+  },
+  {
+    ""id"": ""sample3.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay effectively summarizes and explains concepts related to decision trees and ensemble methods with good clarity. The structure is logical, and the uncertainties section shows a good grasp of nuanced decision-making in model selection and hyperparameter tuning.""
+  },
+  {
+    ""id"": ""sample4.pdf"",
+    ""pred_score"": 7,
+    ""justification"": ""This reflection clearly articulates the concepts of resampling methods, cross-validation, and the bootstrap. The summary is concise and the explanations of concepts are accurate. The single uncertainty question is relevant and indicates a good understanding of the practical application of these techniques.""
+  },
+  {
+    ""id"": ""sample5.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay provides a well-structured summary and clear explanations of various model selection and regularization techniques. The concepts are accurately described, and the uncertainties section shows a thoughtful consideration of practical application and decision-making between different methods.""
+  },
+  {
+    ""id"": ""sample6.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection effectively summarizes and explains various methods for modeling non-linear relationships, including splines and GAMs. The concepts are well-defined and organized logically. The uncertainties section demonstrates a good understanding of practical challenges in model tuning.""
+  },
+  {
+    ""id"": ""sample7.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay provides a clear and well-organized summary of tree-based and ensemble methods. The concepts are accurately described, and the uncertainties section demonstrates a good understanding of the practical challenges involved in tuning boosting algorithms.""
+  },
+  {
+    ""id"": ""sample8.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection offers a strong summary and detailed explanation of unsupervised learning, particularly PCA. The concepts are accurately described with appropriate technical terms. The uncertainties section shows a clear understanding of the practical considerations and decision-making involved in applying PCA.""
+  },
+  {
+    ""id"": ""bad_example_copy.pdf"",
+    ""pred_score"": 1,
+    ""justification"": ""This essay demonstrates a fundamental lack of understanding and engagement with the course material. The language is vague, lacks specificity, and shows no grasp of the concepts discussed. The 'uncertainties' section reflects a complete lack of comprehension rather than a desire for clarification.""
+  },
+  {
+    ""id"": ""mid_example_copy.pdf"",
+    ""pred_score"": 5,
+    ""justification"": ""This reflection offers a basic summary of the transition from regression to classification and introduces two classification concepts. While it touches upon the week's topics, the explanations are somewhat superficial, and the understanding of discriminant analysis is limited. The single uncertainty question is relevant but indicates a need for more foundational knowledge.""
+  }
+]"
+sample3.pdf,sample3.pdf,2,fewshot,original,8,"The essay effectively summarizes and explains concepts related to decision trees and ensemble methods with good clarity. The structure is logical, and the uncertainties section shows a good grasp of nuanced decision-making in model selection and hyperparameter tuning.",False,"[
+  {
+    ""id"": ""sample1.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay demonstrates a solid understanding of neural networks and their associated concepts, with clear and concise explanations. The structure is logical, moving from summary to concepts to uncertainties. The uncertainties section shows thoughtful engagement with areas needing further clarification.""
+  },
+  {
+    ""id"": ""sample2.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection is comprehensive, detailing multiple regression, F-tests, and classification concepts with mathematical underpinnings. The content is specific, well-aligned with statistical learning principles, and demonstrates a deep understanding of the week's material. The uncertainties section is insightful, indicating a desire for deeper, practical application.""
+  },
+  {
+    ""id"": ""sample3.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay effectively summarizes and explains concepts related to decision trees and ensemble methods with good clarity. The structure is logical, and the uncertainties section shows a good grasp of nuanced decision-making in model selection and hyperparameter tuning.""
+  },
+  {
+    ""id"": ""sample4.pdf"",
+    ""pred_score"": 7,
+    ""justification"": ""This reflection clearly articulates the concepts of resampling methods, cross-validation, and the bootstrap. The summary is concise and the explanations of concepts are accurate. The single uncertainty question is relevant and indicates a good understanding of the practical application of these techniques.""
+  },
+  {
+    ""id"": ""sample5.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay provides a well-structured summary and clear explanations of various model selection and regularization techniques. The concepts are accurately described, and the uncertainties section shows a thoughtful consideration of practical application and decision-making between different methods.""
+  },
+  {
+    ""id"": ""sample6.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection effectively summarizes and explains various methods for modeling non-linear relationships, including splines and GAMs. The concepts are well-defined and organized logically. The uncertainties section demonstrates a good understanding of practical challenges in model tuning.""
+  },
+  {
+    ""id"": ""sample7.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay provides a clear and well-organized summary of tree-based and ensemble methods. The concepts are accurately described, and the uncertainties section demonstrates a good understanding of the practical challenges involved in tuning boosting algorithms.""
+  },
+  {
+    ""id"": ""sample8.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection offers a strong summary and detailed explanation of unsupervised learning, particularly PCA. The concepts are accurately described with appropriate technical terms. The uncertainties section shows a clear understanding of the practical considerations and decision-making involved in applying PCA.""
+  },
+  {
+    ""id"": ""bad_example_copy.pdf"",
+    ""pred_score"": 1,
+    ""justification"": ""This essay demonstrates a fundamental lack of understanding and engagement with the course material. The language is vague, lacks specificity, and shows no grasp of the concepts discussed. The 'uncertainties' section reflects a complete lack of comprehension rather than a desire for clarification.""
+  },
+  {
+    ""id"": ""mid_example_copy.pdf"",
+    ""pred_score"": 5,
+    ""justification"": ""This reflection offers a basic summary of the transition from regression to classification and introduces two classification concepts. While it touches upon the week's topics, the explanations are somewhat superficial, and the understanding of discriminant analysis is limited. The single uncertainty question is relevant but indicates a need for more foundational knowledge.""
+  }
+]"
+sample4.pdf,sample4.pdf,3,fewshot,original,7,"This reflection clearly articulates the concepts of resampling methods, cross-validation, and the bootstrap. The summary is concise and the explanations of concepts are accurate. The single uncertainty question is relevant and indicates a good understanding of the practical application of these techniques.",False,"[
+  {
+    ""id"": ""sample1.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay demonstrates a solid understanding of neural networks and their associated concepts, with clear and concise explanations. The structure is logical, moving from summary to concepts to uncertainties. The uncertainties section shows thoughtful engagement with areas needing further clarification.""
+  },
+  {
+    ""id"": ""sample2.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection is comprehensive, detailing multiple regression, F-tests, and classification concepts with mathematical underpinnings. The content is specific, well-aligned with statistical learning principles, and demonstrates a deep understanding of the week's material. The uncertainties section is insightful, indicating a desire for deeper, practical application.""
+  },
+  {
+    ""id"": ""sample3.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay effectively summarizes and explains concepts related to decision trees and ensemble methods with good clarity. The structure is logical, and the uncertainties section shows a good grasp of nuanced decision-making in model selection and hyperparameter tuning.""
+  },
+  {
+    ""id"": ""sample4.pdf"",
+    ""pred_score"": 7,
+    ""justification"": ""This reflection clearly articulates the concepts of resampling methods, cross-validation, and the bootstrap. The summary is concise and the explanations of concepts are accurate. The single uncertainty question is relevant and indicates a good understanding of the practical application of these techniques.""
+  },
+  {
+    ""id"": ""sample5.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay provides a well-structured summary and clear explanations of various model selection and regularization techniques. The concepts are accurately described, and the uncertainties section shows a thoughtful consideration of practical application and decision-making between different methods.""
+  },
+  {
+    ""id"": ""sample6.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection effectively summarizes and explains various methods for modeling non-linear relationships, including splines and GAMs. The concepts are well-defined and organized logically. The uncertainties section demonstrates a good understanding of practical challenges in model tuning.""
+  },
+  {
+    ""id"": ""sample7.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay provides a clear and well-organized summary of tree-based and ensemble methods. The concepts are accurately described, and the uncertainties section demonstrates a good understanding of the practical challenges involved in tuning boosting algorithms.""
+  },
+  {
+    ""id"": ""sample8.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection offers a strong summary and detailed explanation of unsupervised learning, particularly PCA. The concepts are accurately described with appropriate technical terms. The uncertainties section shows a clear understanding of the practical considerations and decision-making involved in applying PCA.""
+  },
+  {
+    ""id"": ""bad_example_copy.pdf"",
+    ""pred_score"": 1,
+    ""justification"": ""This essay demonstrates a fundamental lack of understanding and engagement with the course material. The language is vague, lacks specificity, and shows no grasp of the concepts discussed. The 'uncertainties' section reflects a complete lack of comprehension rather than a desire for clarification.""
+  },
+  {
+    ""id"": ""mid_example_copy.pdf"",
+    ""pred_score"": 5,
+    ""justification"": ""This reflection offers a basic summary of the transition from regression to classification and introduces two classification concepts. While it touches upon the week's topics, the explanations are somewhat superficial, and the understanding of discriminant analysis is limited. The single uncertainty question is relevant but indicates a need for more foundational knowledge.""
+  }
+]"
+sample5.pdf,sample5.pdf,4,fewshot,original,8,"The essay provides a well-structured summary and clear explanations of various model selection and regularization techniques. The concepts are accurately described, and the uncertainties section shows a thoughtful consideration of practical application and decision-making between different methods.",False,"[
+  {
+    ""id"": ""sample1.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay demonstrates a solid understanding of neural networks and their associated concepts, with clear and concise explanations. The structure is logical, moving from summary to concepts to uncertainties. The uncertainties section shows thoughtful engagement with areas needing further clarification.""
+  },
+  {
+    ""id"": ""sample2.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection is comprehensive, detailing multiple regression, F-tests, and classification concepts with mathematical underpinnings. The content is specific, well-aligned with statistical learning principles, and demonstrates a deep understanding of the week's material. The uncertainties section is insightful, indicating a desire for deeper, practical application.""
+  },
+  {
+    ""id"": ""sample3.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay effectively summarizes and explains concepts related to decision trees and ensemble methods with good clarity. The structure is logical, and the uncertainties section shows a good grasp of nuanced decision-making in model selection and hyperparameter tuning.""
+  },
+  {
+    ""id"": ""sample4.pdf"",
+    ""pred_score"": 7,
+    ""justification"": ""This reflection clearly articulates the concepts of resampling methods, cross-validation, and the bootstrap. The summary is concise and the explanations of concepts are accurate. The single uncertainty question is relevant and indicates a good understanding of the practical application of these techniques.""
+  },
+  {
+    ""id"": ""sample5.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay provides a well-structured summary and clear explanations of various model selection and regularization techniques. The concepts are accurately described, and the uncertainties section shows a thoughtful consideration of practical application and decision-making between different methods.""
+  },
+  {
+    ""id"": ""sample6.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection effectively summarizes and explains various methods for modeling non-linear relationships, including splines and GAMs. The concepts are well-defined and organized logically. The uncertainties section demonstrates a good understanding of practical challenges in model tuning.""
+  },
+  {
+    ""id"": ""sample7.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay provides a clear and well-organized summary of tree-based and ensemble methods. The concepts are accurately described, and the uncertainties section demonstrates a good understanding of the practical challenges involved in tuning boosting algorithms.""
+  },
+  {
+    ""id"": ""sample8.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection offers a strong summary and detailed explanation of unsupervised learning, particularly PCA. The concepts are accurately described with appropriate technical terms. The uncertainties section shows a clear understanding of the practical considerations and decision-making involved in applying PCA.""
+  },
+  {
+    ""id"": ""bad_example_copy.pdf"",
+    ""pred_score"": 1,
+    ""justification"": ""This essay demonstrates a fundamental lack of understanding and engagement with the course material. The language is vague, lacks specificity, and shows no grasp of the concepts discussed. The 'uncertainties' section reflects a complete lack of comprehension rather than a desire for clarification.""
+  },
+  {
+    ""id"": ""mid_example_copy.pdf"",
+    ""pred_score"": 5,
+    ""justification"": ""This reflection offers a basic summary of the transition from regression to classification and introduces two classification concepts. While it touches upon the week's topics, the explanations are somewhat superficial, and the understanding of discriminant analysis is limited. The single uncertainty question is relevant but indicates a need for more foundational knowledge.""
+  }
+]"
+sample6.pdf,sample6.pdf,5,fewshot,original,8,"This reflection effectively summarizes and explains various methods for modeling non-linear relationships, including splines and GAMs. The concepts are well-defined and organized logically. The uncertainties section demonstrates a good understanding of practical challenges in model tuning.",False,"[
+  {
+    ""id"": ""sample1.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay demonstrates a solid understanding of neural networks and their associated concepts, with clear and concise explanations. The structure is logical, moving from summary to concepts to uncertainties. The uncertainties section shows thoughtful engagement with areas needing further clarification.""
+  },
+  {
+    ""id"": ""sample2.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection is comprehensive, detailing multiple regression, F-tests, and classification concepts with mathematical underpinnings. The content is specific, well-aligned with statistical learning principles, and demonstrates a deep understanding of the week's material. The uncertainties section is insightful, indicating a desire for deeper, practical application.""
+  },
+  {
+    ""id"": ""sample3.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay effectively summarizes and explains concepts related to decision trees and ensemble methods with good clarity. The structure is logical, and the uncertainties section shows a good grasp of nuanced decision-making in model selection and hyperparameter tuning.""
+  },
+  {
+    ""id"": ""sample4.pdf"",
+    ""pred_score"": 7,
+    ""justification"": ""This reflection clearly articulates the concepts of resampling methods, cross-validation, and the bootstrap. The summary is concise and the explanations of concepts are accurate. The single uncertainty question is relevant and indicates a good understanding of the practical application of these techniques.""
+  },
+  {
+    ""id"": ""sample5.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay provides a well-structured summary and clear explanations of various model selection and regularization techniques. The concepts are accurately described, and the uncertainties section shows a thoughtful consideration of practical application and decision-making between different methods.""
+  },
+  {
+    ""id"": ""sample6.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection effectively summarizes and explains various methods for modeling non-linear relationships, including splines and GAMs. The concepts are well-defined and organized logically. The uncertainties section demonstrates a good understanding of practical challenges in model tuning.""
+  },
+  {
+    ""id"": ""sample7.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay provides a clear and well-organized summary of tree-based and ensemble methods. The concepts are accurately described, and the uncertainties section demonstrates a good understanding of the practical challenges involved in tuning boosting algorithms.""
+  },
+  {
+    ""id"": ""sample8.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection offers a strong summary and detailed explanation of unsupervised learning, particularly PCA. The concepts are accurately described with appropriate technical terms. The uncertainties section shows a clear understanding of the practical considerations and decision-making involved in applying PCA.""
+  },
+  {
+    ""id"": ""bad_example_copy.pdf"",
+    ""pred_score"": 1,
+    ""justification"": ""This essay demonstrates a fundamental lack of understanding and engagement with the course material. The language is vague, lacks specificity, and shows no grasp of the concepts discussed. The 'uncertainties' section reflects a complete lack of comprehension rather than a desire for clarification.""
+  },
+  {
+    ""id"": ""mid_example_copy.pdf"",
+    ""pred_score"": 5,
+    ""justification"": ""This reflection offers a basic summary of the transition from regression to classification and introduces two classification concepts. While it touches upon the week's topics, the explanations are somewhat superficial, and the understanding of discriminant analysis is limited. The single uncertainty question is relevant but indicates a need for more foundational knowledge.""
+  }
+]"
+sample7.pdf,sample7.pdf,6,fewshot,original,8,"The essay provides a clear and well-organized summary of tree-based and ensemble methods. The concepts are accurately described, and the uncertainties section demonstrates a good understanding of the practical challenges involved in tuning boosting algorithms.",False,"[
+  {
+    ""id"": ""sample1.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay demonstrates a solid understanding of neural networks and their associated concepts, with clear and concise explanations. The structure is logical, moving from summary to concepts to uncertainties. The uncertainties section shows thoughtful engagement with areas needing further clarification.""
+  },
+  {
+    ""id"": ""sample2.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection is comprehensive, detailing multiple regression, F-tests, and classification concepts with mathematical underpinnings. The content is specific, well-aligned with statistical learning principles, and demonstrates a deep understanding of the week's material. The uncertainties section is insightful, indicating a desire for deeper, practical application.""
+  },
+  {
+    ""id"": ""sample3.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay effectively summarizes and explains concepts related to decision trees and ensemble methods with good clarity. The structure is logical, and the uncertainties section shows a good grasp of nuanced decision-making in model selection and hyperparameter tuning.""
+  },
+  {
+    ""id"": ""sample4.pdf"",
+    ""pred_score"": 7,
+    ""justification"": ""This reflection clearly articulates the concepts of resampling methods, cross-validation, and the bootstrap. The summary is concise and the explanations of concepts are accurate. The single uncertainty question is relevant and indicates a good understanding of the practical application of these techniques.""
+  },
+  {
+    ""id"": ""sample5.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay provides a well-structured summary and clear explanations of various model selection and regularization techniques. The concepts are accurately described, and the uncertainties section shows a thoughtful consideration of practical application and decision-making between different methods.""
+  },
+  {
+    ""id"": ""sample6.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection effectively summarizes and explains various methods for modeling non-linear relationships, including splines and GAMs. The concepts are well-defined and organized logically. The uncertainties section demonstrates a good understanding of practical challenges in model tuning.""
+  },
+  {
+    ""id"": ""sample7.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay provides a clear and well-organized summary of tree-based and ensemble methods. The concepts are accurately described, and the uncertainties section demonstrates a good understanding of the practical challenges involved in tuning boosting algorithms.""
+  },
+  {
+    ""id"": ""sample8.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection offers a strong summary and detailed explanation of unsupervised learning, particularly PCA. The concepts are accurately described with appropriate technical terms. The uncertainties section shows a clear understanding of the practical considerations and decision-making involved in applying PCA.""
+  },
+  {
+    ""id"": ""bad_example_copy.pdf"",
+    ""pred_score"": 1,
+    ""justification"": ""This essay demonstrates a fundamental lack of understanding and engagement with the course material. The language is vague, lacks specificity, and shows no grasp of the concepts discussed. The 'uncertainties' section reflects a complete lack of comprehension rather than a desire for clarification.""
+  },
+  {
+    ""id"": ""mid_example_copy.pdf"",
+    ""pred_score"": 5,
+    ""justification"": ""This reflection offers a basic summary of the transition from regression to classification and introduces two classification concepts. While it touches upon the week's topics, the explanations are somewhat superficial, and the understanding of discriminant analysis is limited. The single uncertainty question is relevant but indicates a need for more foundational knowledge.""
+  }
+]"
+sample8.pdf,sample8.pdf,7,fewshot,original,8,"This reflection offers a strong summary and detailed explanation of unsupervised learning, particularly PCA. The concepts are accurately described with appropriate technical terms. The uncertainties section shows a clear understanding of the practical considerations and decision-making involved in applying PCA.",False,"[
+  {
+    ""id"": ""sample1.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay demonstrates a solid understanding of neural networks and their associated concepts, with clear and concise explanations. The structure is logical, moving from summary to concepts to uncertainties. The uncertainties section shows thoughtful engagement with areas needing further clarification.""
+  },
+  {
+    ""id"": ""sample2.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection is comprehensive, detailing multiple regression, F-tests, and classification concepts with mathematical underpinnings. The content is specific, well-aligned with statistical learning principles, and demonstrates a deep understanding of the week's material. The uncertainties section is insightful, indicating a desire for deeper, practical application.""
+  },
+  {
+    ""id"": ""sample3.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay effectively summarizes and explains concepts related to decision trees and ensemble methods with good clarity. The structure is logical, and the uncertainties section shows a good grasp of nuanced decision-making in model selection and hyperparameter tuning.""
+  },
+  {
+    ""id"": ""sample4.pdf"",
+    ""pred_score"": 7,
+    ""justification"": ""This reflection clearly articulates the concepts of resampling methods, cross-validation, and the bootstrap. The summary is concise and the explanations of concepts are accurate. The single uncertainty question is relevant and indicates a good understanding of the practical application of these techniques.""
+  },
+  {
+    ""id"": ""sample5.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay provides a well-structured summary and clear explanations of various model selection and regularization techniques. The concepts are accurately described, and the uncertainties section shows a thoughtful consideration of practical application and decision-making between different methods.""
+  },
+  {
+    ""id"": ""sample6.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection effectively summarizes and explains various methods for modeling non-linear relationships, including splines and GAMs. The concepts are well-defined and organized logically. The uncertainties section demonstrates a good understanding of practical challenges in model tuning.""
+  },
+  {
+    ""id"": ""sample7.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay provides a clear and well-organized summary of tree-based and ensemble methods. The concepts are accurately described, and the uncertainties section demonstrates a good understanding of the practical challenges involved in tuning boosting algorithms.""
+  },
+  {
+    ""id"": ""sample8.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection offers a strong summary and detailed explanation of unsupervised learning, particularly PCA. The concepts are accurately described with appropriate technical terms. The uncertainties section shows a clear understanding of the practical considerations and decision-making involved in applying PCA.""
+  },
+  {
+    ""id"": ""bad_example_copy.pdf"",
+    ""pred_score"": 1,
+    ""justification"": ""This essay demonstrates a fundamental lack of understanding and engagement with the course material. The language is vague, lacks specificity, and shows no grasp of the concepts discussed. The 'uncertainties' section reflects a complete lack of comprehension rather than a desire for clarification.""
+  },
+  {
+    ""id"": ""mid_example_copy.pdf"",
+    ""pred_score"": 5,
+    ""justification"": ""This reflection offers a basic summary of the transition from regression to classification and introduces two classification concepts. While it touches upon the week's topics, the explanations are somewhat superficial, and the understanding of discriminant analysis is limited. The single uncertainty question is relevant but indicates a need for more foundational knowledge.""
+  }
+]"
+bad_example_copy.pdf,bad_example_copy.pdf,8,fewshot,original,1,"This essay demonstrates a fundamental lack of understanding and engagement with the course material. The language is vague, lacks specificity, and shows no grasp of the concepts discussed. The 'uncertainties' section reflects a complete lack of comprehension rather than a desire for clarification.",False,"[
+  {
+    ""id"": ""sample1.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay demonstrates a solid understanding of neural networks and their associated concepts, with clear and concise explanations. The structure is logical, moving from summary to concepts to uncertainties. The uncertainties section shows thoughtful engagement with areas needing further clarification.""
+  },
+  {
+    ""id"": ""sample2.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection is comprehensive, detailing multiple regression, F-tests, and classification concepts with mathematical underpinnings. The content is specific, well-aligned with statistical learning principles, and demonstrates a deep understanding of the week's material. The uncertainties section is insightful, indicating a desire for deeper, practical application.""
+  },
+  {
+    ""id"": ""sample3.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay effectively summarizes and explains concepts related to decision trees and ensemble methods with good clarity. The structure is logical, and the uncertainties section shows a good grasp of nuanced decision-making in model selection and hyperparameter tuning.""
+  },
+  {
+    ""id"": ""sample4.pdf"",
+    ""pred_score"": 7,
+    ""justification"": ""This reflection clearly articulates the concepts of resampling methods, cross-validation, and the bootstrap. The summary is concise and the explanations of concepts are accurate. The single uncertainty question is relevant and indicates a good understanding of the practical application of these techniques.""
+  },
+  {
+    ""id"": ""sample5.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay provides a well-structured summary and clear explanations of various model selection and regularization techniques. The concepts are accurately described, and the uncertainties section shows a thoughtful consideration of practical application and decision-making between different methods.""
+  },
+  {
+    ""id"": ""sample6.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection effectively summarizes and explains various methods for modeling non-linear relationships, including splines and GAMs. The concepts are well-defined and organized logically. The uncertainties section demonstrates a good understanding of practical challenges in model tuning.""
+  },
+  {
+    ""id"": ""sample7.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay provides a clear and well-organized summary of tree-based and ensemble methods. The concepts are accurately described, and the uncertainties section demonstrates a good understanding of the practical challenges involved in tuning boosting algorithms.""
+  },
+  {
+    ""id"": ""sample8.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection offers a strong summary and detailed explanation of unsupervised learning, particularly PCA. The concepts are accurately described with appropriate technical terms. The uncertainties section shows a clear understanding of the practical considerations and decision-making involved in applying PCA.""
+  },
+  {
+    ""id"": ""bad_example_copy.pdf"",
+    ""pred_score"": 1,
+    ""justification"": ""This essay demonstrates a fundamental lack of understanding and engagement with the course material. The language is vague, lacks specificity, and shows no grasp of the concepts discussed. The 'uncertainties' section reflects a complete lack of comprehension rather than a desire for clarification.""
+  },
+  {
+    ""id"": ""mid_example_copy.pdf"",
+    ""pred_score"": 5,
+    ""justification"": ""This reflection offers a basic summary of the transition from regression to classification and introduces two classification concepts. While it touches upon the week's topics, the explanations are somewhat superficial, and the understanding of discriminant analysis is limited. The single uncertainty question is relevant but indicates a need for more foundational knowledge.""
+  }
+]"
+mid_example_copy.pdf,mid_example_copy.pdf,9,fewshot,original,5,"This reflection offers a basic summary of the transition from regression to classification and introduces two classification concepts. While it touches upon the week's topics, the explanations are somewhat superficial, and the understanding of discriminant analysis is limited. The single uncertainty question is relevant but indicates a need for more foundational knowledge.",False,"[
+  {
+    ""id"": ""sample1.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay demonstrates a solid understanding of neural networks and their associated concepts, with clear and concise explanations. The structure is logical, moving from summary to concepts to uncertainties. The uncertainties section shows thoughtful engagement with areas needing further clarification.""
+  },
+  {
+    ""id"": ""sample2.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection is comprehensive, detailing multiple regression, F-tests, and classification concepts with mathematical underpinnings. The content is specific, well-aligned with statistical learning principles, and demonstrates a deep understanding of the week's material. The uncertainties section is insightful, indicating a desire for deeper, practical application.""
+  },
+  {
+    ""id"": ""sample3.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay effectively summarizes and explains concepts related to decision trees and ensemble methods with good clarity. The structure is logical, and the uncertainties section shows a good grasp of nuanced decision-making in model selection and hyperparameter tuning.""
+  },
+  {
+    ""id"": ""sample4.pdf"",
+    ""pred_score"": 7,
+    ""justification"": ""This reflection clearly articulates the concepts of resampling methods, cross-validation, and the bootstrap. The summary is concise and the explanations of concepts are accurate. The single uncertainty question is relevant and indicates a good understanding of the practical application of these techniques.""
+  },
+  {
+    ""id"": ""sample5.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay provides a well-structured summary and clear explanations of various model selection and regularization techniques. The concepts are accurately described, and the uncertainties section shows a thoughtful consideration of practical application and decision-making between different methods.""
+  },
+  {
+    ""id"": ""sample6.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection effectively summarizes and explains various methods for modeling non-linear relationships, including splines and GAMs. The concepts are well-defined and organized logically. The uncertainties section demonstrates a good understanding of practical challenges in model tuning.""
+  },
+  {
+    ""id"": ""sample7.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay provides a clear and well-organized summary of tree-based and ensemble methods. The concepts are accurately described, and the uncertainties section demonstrates a good understanding of the practical challenges involved in tuning boosting algorithms.""
+  },
+  {
+    ""id"": ""sample8.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection offers a strong summary and detailed explanation of unsupervised learning, particularly PCA. The concepts are accurately described with appropriate technical terms. The uncertainties section shows a clear understanding of the practical considerations and decision-making involved in applying PCA.""
+  },
+  {
+    ""id"": ""bad_example_copy.pdf"",
+    ""pred_score"": 1,
+    ""justification"": ""This essay demonstrates a fundamental lack of understanding and engagement with the course material. The language is vague, lacks specificity, and shows no grasp of the concepts discussed. The 'uncertainties' section reflects a complete lack of comprehension rather than a desire for clarification.""
+  },
+  {
+    ""id"": ""mid_example_copy.pdf"",
+    ""pred_score"": 5,
+    ""justification"": ""This reflection offers a basic summary of the transition from regression to classification and introduces two classification concepts. While it touches upon the week's topics, the explanations are somewhat superficial, and the understanding of discriminant analysis is limited. The single uncertainty question is relevant but indicates a need for more foundational knowledge.""
+  }
+]"

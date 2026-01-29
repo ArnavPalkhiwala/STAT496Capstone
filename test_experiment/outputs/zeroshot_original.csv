@@ -1,0 +1,521 @@
+id,sample_name,position_in_run,mode,order,pred_score,justification,clamped,raw_json
+sample1.pdf,sample1.pdf,0,zeroshot,original,8,"This reflection demonstrates a solid understanding of the week's concepts, clearly outlining key terms and their definitions. The student effectively identifies specific areas of uncertainty, demonstrating thoughtful engagement with the material. The writing is clear and organized, though flow could be improved slightly with more explicit transitions between paragraphs.",False,"[
+  {
+    ""id"": ""sample1.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection demonstrates a solid understanding of the week's concepts, clearly outlining key terms and their definitions. The student effectively identifies specific areas of uncertainty, demonstrating thoughtful engagement with the material. The writing is clear and organized, though flow could be improved slightly with more explicit transitions between paragraphs.""
+  },
+  {
+    ""id"": ""sample2.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay provides a comprehensive summary and detailed conceptual breakdown, including mathematical formulations, which shows a strong grasp of the material. The uncertainties raised are insightful and demonstrate a desire for deeper understanding. The structure is logical, though the flow could be smoother with more explicit transitions between the MLR and Classification sections.""
+  },
+  {
+    ""id"": ""sample3.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection is well-structured and clearly articulates the week's concepts. The 'Uncertainties' section is particularly strong, posing specific, thoughtful questions that reveal a deep engagement with the nuances of the topics. The writing is clear, concise, and flows well, demonstrating excellent understanding and a professional tone.""
+  },
+  {
+    ""id"": ""sample4.pdf"",
+    ""pred_score"": 7,
+    ""justification"": ""The essay clearly summarizes the week's focus on resampling methods and defines the core concepts accurately. The identified uncertainty is relevant and shows critical thinking about practical application. While well-structured and grammatically sound, the essay is somewhat brief, and the flow could be enhanced with slightly more detailed explanations or examples.""
+  },
+  {
+    ""id"": ""sample5.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection excels in its clarity and depth of understanding, accurately summarizing complex topics like model selection and regularization. The concepts are well-defined, and the uncertainty identified is specific and demonstrates advanced thinking. The writing is polished, well-organized, and flows logically, making it a very strong submission.""
+  },
+  {
+    ""id"": ""sample6.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay demonstrates a strong grasp of advanced modeling techniques, with clear definitions of concepts like splines and GAMs. The uncertainties raised are insightful and reflect a deep engagement with practical implementation challenges. The writing is fluid, well-organized, and the overall quality suggests a high level of understanding and careful reflection.""
+  },
+  {
+    ""id"": ""sample7.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection provides a clear and accurate summary of decision trees and ensemble methods. The concepts are well-explained, and the 'Uncertainties' section demonstrates a sophisticated understanding of the practical challenges in tuning boosting models. The writing is coherent, well-structured, and flows effectively, showcasing excellent learning.""
+  },
+  {
+    ""id"": ""sample8.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay offers a clear and comprehensive summary of unsupervised learning and PCA. The concepts are explained with excellent detail, including the mathematical underpinnings and practical applications. The 'Uncertainties' section poses highly relevant and thoughtful questions, demonstrating a deep and critical understanding of the topic. The writing is polished and well-organized.""
+  },
+  {
+    ""id"": ""bad_example_copy.pdf"",
+    ""pred_score"": 2,
+    ""justification"": ""This essay exhibits extremely poor flow, coherence, and content quality. The language is informal and vague, with minimal understanding of the week's concepts demonstrated. There are significant issues with grammar and professionalism, and the structure is entirely lacking, making it difficult to discern any meaningful reflection or learning.""
+  },
+  {
+    ""id"": ""mid_example_copy.pdf"",
+    ""pred_score"": 5,
+    ""justification"": ""This reflection provides a basic summary and conceptual understanding of classification methods, distinguishing them from regression. The concepts are explained with some clarity, though the detail is limited. The identified uncertainty is relevant, but the overall essay lacks depth and sophisticated engagement. The flow and structure are adequate but could be improved with more detailed explanations and better transitions.""
+  }
+]"
+sample2.pdf,sample2.pdf,1,zeroshot,original,8,"The essay provides a comprehensive summary and detailed conceptual breakdown, including mathematical formulations, which shows a strong grasp of the material. The uncertainties raised are insightful and demonstrate a desire for deeper understanding. The structure is logical, though the flow could be smoother with more explicit transitions between the MLR and Classification sections.",False,"[
+  {
+    ""id"": ""sample1.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection demonstrates a solid understanding of the week's concepts, clearly outlining key terms and their definitions. The student effectively identifies specific areas of uncertainty, demonstrating thoughtful engagement with the material. The writing is clear and organized, though flow could be improved slightly with more explicit transitions between paragraphs.""
+  },
+  {
+    ""id"": ""sample2.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay provides a comprehensive summary and detailed conceptual breakdown, including mathematical formulations, which shows a strong grasp of the material. The uncertainties raised are insightful and demonstrate a desire for deeper understanding. The structure is logical, though the flow could be smoother with more explicit transitions between the MLR and Classification sections.""
+  },
+  {
+    ""id"": ""sample3.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection is well-structured and clearly articulates the week's concepts. The 'Uncertainties' section is particularly strong, posing specific, thoughtful questions that reveal a deep engagement with the nuances of the topics. The writing is clear, concise, and flows well, demonstrating excellent understanding and a professional tone.""
+  },
+  {
+    ""id"": ""sample4.pdf"",
+    ""pred_score"": 7,
+    ""justification"": ""The essay clearly summarizes the week's focus on resampling methods and defines the core concepts accurately. The identified uncertainty is relevant and shows critical thinking about practical application. While well-structured and grammatically sound, the essay is somewhat brief, and the flow could be enhanced with slightly more detailed explanations or examples.""
+  },
+  {
+    ""id"": ""sample5.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection excels in its clarity and depth of understanding, accurately summarizing complex topics like model selection and regularization. The concepts are well-defined, and the uncertainty identified is specific and demonstrates advanced thinking. The writing is polished, well-organized, and flows logically, making it a very strong submission.""
+  },
+  {
+    ""id"": ""sample6.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay demonstrates a strong grasp of advanced modeling techniques, with clear definitions of concepts like splines and GAMs. The uncertainties raised are insightful and reflect a deep engagement with practical implementation challenges. The writing is fluid, well-organized, and the overall quality suggests a high level of understanding and careful reflection.""
+  },
+  {
+    ""id"": ""sample7.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection provides a clear and accurate summary of decision trees and ensemble methods. The concepts are well-explained, and the 'Uncertainties' section demonstrates a sophisticated understanding of the practical challenges in tuning boosting models. The writing is coherent, well-structured, and flows effectively, showcasing excellent learning.""
+  },
+  {
+    ""id"": ""sample8.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay offers a clear and comprehensive summary of unsupervised learning and PCA. The concepts are explained with excellent detail, including the mathematical underpinnings and practical applications. The 'Uncertainties' section poses highly relevant and thoughtful questions, demonstrating a deep and critical understanding of the topic. The writing is polished and well-organized.""
+  },
+  {
+    ""id"": ""bad_example_copy.pdf"",
+    ""pred_score"": 2,
+    ""justification"": ""This essay exhibits extremely poor flow, coherence, and content quality. The language is informal and vague, with minimal understanding of the week's concepts demonstrated. There are significant issues with grammar and professionalism, and the structure is entirely lacking, making it difficult to discern any meaningful reflection or learning.""
+  },
+  {
+    ""id"": ""mid_example_copy.pdf"",
+    ""pred_score"": 5,
+    ""justification"": ""This reflection provides a basic summary and conceptual understanding of classification methods, distinguishing them from regression. The concepts are explained with some clarity, though the detail is limited. The identified uncertainty is relevant, but the overall essay lacks depth and sophisticated engagement. The flow and structure are adequate but could be improved with more detailed explanations and better transitions.""
+  }
+]"
+sample3.pdf,sample3.pdf,2,zeroshot,original,9,"This reflection is well-structured and clearly articulates the week's concepts. The 'Uncertainties' section is particularly strong, posing specific, thoughtful questions that reveal a deep engagement with the nuances of the topics. The writing is clear, concise, and flows well, demonstrating excellent understanding and a professional tone.",False,"[
+  {
+    ""id"": ""sample1.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection demonstrates a solid understanding of the week's concepts, clearly outlining key terms and their definitions. The student effectively identifies specific areas of uncertainty, demonstrating thoughtful engagement with the material. The writing is clear and organized, though flow could be improved slightly with more explicit transitions between paragraphs.""
+  },
+  {
+    ""id"": ""sample2.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay provides a comprehensive summary and detailed conceptual breakdown, including mathematical formulations, which shows a strong grasp of the material. The uncertainties raised are insightful and demonstrate a desire for deeper understanding. The structure is logical, though the flow could be smoother with more explicit transitions between the MLR and Classification sections.""
+  },
+  {
+    ""id"": ""sample3.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection is well-structured and clearly articulates the week's concepts. The 'Uncertainties' section is particularly strong, posing specific, thoughtful questions that reveal a deep engagement with the nuances of the topics. The writing is clear, concise, and flows well, demonstrating excellent understanding and a professional tone.""
+  },
+  {
+    ""id"": ""sample4.pdf"",
+    ""pred_score"": 7,
+    ""justification"": ""The essay clearly summarizes the week's focus on resampling methods and defines the core concepts accurately. The identified uncertainty is relevant and shows critical thinking about practical application. While well-structured and grammatically sound, the essay is somewhat brief, and the flow could be enhanced with slightly more detailed explanations or examples.""
+  },
+  {
+    ""id"": ""sample5.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection excels in its clarity and depth of understanding, accurately summarizing complex topics like model selection and regularization. The concepts are well-defined, and the uncertainty identified is specific and demonstrates advanced thinking. The writing is polished, well-organized, and flows logically, making it a very strong submission.""
+  },
+  {
+    ""id"": ""sample6.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay demonstrates a strong grasp of advanced modeling techniques, with clear definitions of concepts like splines and GAMs. The uncertainties raised are insightful and reflect a deep engagement with practical implementation challenges. The writing is fluid, well-organized, and the overall quality suggests a high level of understanding and careful reflection.""
+  },
+  {
+    ""id"": ""sample7.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection provides a clear and accurate summary of decision trees and ensemble methods. The concepts are well-explained, and the 'Uncertainties' section demonstrates a sophisticated understanding of the practical challenges in tuning boosting models. The writing is coherent, well-structured, and flows effectively, showcasing excellent learning.""
+  },
+  {
+    ""id"": ""sample8.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay offers a clear and comprehensive summary of unsupervised learning and PCA. The concepts are explained with excellent detail, including the mathematical underpinnings and practical applications. The 'Uncertainties' section poses highly relevant and thoughtful questions, demonstrating a deep and critical understanding of the topic. The writing is polished and well-organized.""
+  },
+  {
+    ""id"": ""bad_example_copy.pdf"",
+    ""pred_score"": 2,
+    ""justification"": ""This essay exhibits extremely poor flow, coherence, and content quality. The language is informal and vague, with minimal understanding of the week's concepts demonstrated. There are significant issues with grammar and professionalism, and the structure is entirely lacking, making it difficult to discern any meaningful reflection or learning.""
+  },
+  {
+    ""id"": ""mid_example_copy.pdf"",
+    ""pred_score"": 5,
+    ""justification"": ""This reflection provides a basic summary and conceptual understanding of classification methods, distinguishing them from regression. The concepts are explained with some clarity, though the detail is limited. The identified uncertainty is relevant, but the overall essay lacks depth and sophisticated engagement. The flow and structure are adequate but could be improved with more detailed explanations and better transitions.""
+  }
+]"
+sample4.pdf,sample4.pdf,3,zeroshot,original,7,"The essay clearly summarizes the week's focus on resampling methods and defines the core concepts accurately. The identified uncertainty is relevant and shows critical thinking about practical application. While well-structured and grammatically sound, the essay is somewhat brief, and the flow could be enhanced with slightly more detailed explanations or examples.",False,"[
+  {
+    ""id"": ""sample1.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection demonstrates a solid understanding of the week's concepts, clearly outlining key terms and their definitions. The student effectively identifies specific areas of uncertainty, demonstrating thoughtful engagement with the material. The writing is clear and organized, though flow could be improved slightly with more explicit transitions between paragraphs.""
+  },
+  {
+    ""id"": ""sample2.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay provides a comprehensive summary and detailed conceptual breakdown, including mathematical formulations, which shows a strong grasp of the material. The uncertainties raised are insightful and demonstrate a desire for deeper understanding. The structure is logical, though the flow could be smoother with more explicit transitions between the MLR and Classification sections.""
+  },
+  {
+    ""id"": ""sample3.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection is well-structured and clearly articulates the week's concepts. The 'Uncertainties' section is particularly strong, posing specific, thoughtful questions that reveal a deep engagement with the nuances of the topics. The writing is clear, concise, and flows well, demonstrating excellent understanding and a professional tone.""
+  },
+  {
+    ""id"": ""sample4.pdf"",
+    ""pred_score"": 7,
+    ""justification"": ""The essay clearly summarizes the week's focus on resampling methods and defines the core concepts accurately. The identified uncertainty is relevant and shows critical thinking about practical application. While well-structured and grammatically sound, the essay is somewhat brief, and the flow could be enhanced with slightly more detailed explanations or examples.""
+  },
+  {
+    ""id"": ""sample5.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection excels in its clarity and depth of understanding, accurately summarizing complex topics like model selection and regularization. The concepts are well-defined, and the uncertainty identified is specific and demonstrates advanced thinking. The writing is polished, well-organized, and flows logically, making it a very strong submission.""
+  },
+  {
+    ""id"": ""sample6.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay demonstrates a strong grasp of advanced modeling techniques, with clear definitions of concepts like splines and GAMs. The uncertainties raised are insightful and reflect a deep engagement with practical implementation challenges. The writing is fluid, well-organized, and the overall quality suggests a high level of understanding and careful reflection.""
+  },
+  {
+    ""id"": ""sample7.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection provides a clear and accurate summary of decision trees and ensemble methods. The concepts are well-explained, and the 'Uncertainties' section demonstrates a sophisticated understanding of the practical challenges in tuning boosting models. The writing is coherent, well-structured, and flows effectively, showcasing excellent learning.""
+  },
+  {
+    ""id"": ""sample8.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay offers a clear and comprehensive summary of unsupervised learning and PCA. The concepts are explained with excellent detail, including the mathematical underpinnings and practical applications. The 'Uncertainties' section poses highly relevant and thoughtful questions, demonstrating a deep and critical understanding of the topic. The writing is polished and well-organized.""
+  },
+  {
+    ""id"": ""bad_example_copy.pdf"",
+    ""pred_score"": 2,
+    ""justification"": ""This essay exhibits extremely poor flow, coherence, and content quality. The language is informal and vague, with minimal understanding of the week's concepts demonstrated. There are significant issues with grammar and professionalism, and the structure is entirely lacking, making it difficult to discern any meaningful reflection or learning.""
+  },
+  {
+    ""id"": ""mid_example_copy.pdf"",
+    ""pred_score"": 5,
+    ""justification"": ""This reflection provides a basic summary and conceptual understanding of classification methods, distinguishing them from regression. The concepts are explained with some clarity, though the detail is limited. The identified uncertainty is relevant, but the overall essay lacks depth and sophisticated engagement. The flow and structure are adequate but could be improved with more detailed explanations and better transitions.""
+  }
+]"
+sample5.pdf,sample5.pdf,4,zeroshot,original,9,"This reflection excels in its clarity and depth of understanding, accurately summarizing complex topics like model selection and regularization. The concepts are well-defined, and the uncertainty identified is specific and demonstrates advanced thinking. The writing is polished, well-organized, and flows logically, making it a very strong submission.",False,"[
+  {
+    ""id"": ""sample1.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection demonstrates a solid understanding of the week's concepts, clearly outlining key terms and their definitions. The student effectively identifies specific areas of uncertainty, demonstrating thoughtful engagement with the material. The writing is clear and organized, though flow could be improved slightly with more explicit transitions between paragraphs.""
+  },
+  {
+    ""id"": ""sample2.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay provides a comprehensive summary and detailed conceptual breakdown, including mathematical formulations, which shows a strong grasp of the material. The uncertainties raised are insightful and demonstrate a desire for deeper understanding. The structure is logical, though the flow could be smoother with more explicit transitions between the MLR and Classification sections.""
+  },
+  {
+    ""id"": ""sample3.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection is well-structured and clearly articulates the week's concepts. The 'Uncertainties' section is particularly strong, posing specific, thoughtful questions that reveal a deep engagement with the nuances of the topics. The writing is clear, concise, and flows well, demonstrating excellent understanding and a professional tone.""
+  },
+  {
+    ""id"": ""sample4.pdf"",
+    ""pred_score"": 7,
+    ""justification"": ""The essay clearly summarizes the week's focus on resampling methods and defines the core concepts accurately. The identified uncertainty is relevant and shows critical thinking about practical application. While well-structured and grammatically sound, the essay is somewhat brief, and the flow could be enhanced with slightly more detailed explanations or examples.""
+  },
+  {
+    ""id"": ""sample5.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection excels in its clarity and depth of understanding, accurately summarizing complex topics like model selection and regularization. The concepts are well-defined, and the uncertainty identified is specific and demonstrates advanced thinking. The writing is polished, well-organized, and flows logically, making it a very strong submission.""
+  },
+  {
+    ""id"": ""sample6.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay demonstrates a strong grasp of advanced modeling techniques, with clear definitions of concepts like splines and GAMs. The uncertainties raised are insightful and reflect a deep engagement with practical implementation challenges. The writing is fluid, well-organized, and the overall quality suggests a high level of understanding and careful reflection.""
+  },
+  {
+    ""id"": ""sample7.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection provides a clear and accurate summary of decision trees and ensemble methods. The concepts are well-explained, and the 'Uncertainties' section demonstrates a sophisticated understanding of the practical challenges in tuning boosting models. The writing is coherent, well-structured, and flows effectively, showcasing excellent learning.""
+  },
+  {
+    ""id"": ""sample8.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay offers a clear and comprehensive summary of unsupervised learning and PCA. The concepts are explained with excellent detail, including the mathematical underpinnings and practical applications. The 'Uncertainties' section poses highly relevant and thoughtful questions, demonstrating a deep and critical understanding of the topic. The writing is polished and well-organized.""
+  },
+  {
+    ""id"": ""bad_example_copy.pdf"",
+    ""pred_score"": 2,
+    ""justification"": ""This essay exhibits extremely poor flow, coherence, and content quality. The language is informal and vague, with minimal understanding of the week's concepts demonstrated. There are significant issues with grammar and professionalism, and the structure is entirely lacking, making it difficult to discern any meaningful reflection or learning.""
+  },
+  {
+    ""id"": ""mid_example_copy.pdf"",
+    ""pred_score"": 5,
+    ""justification"": ""This reflection provides a basic summary and conceptual understanding of classification methods, distinguishing them from regression. The concepts are explained with some clarity, though the detail is limited. The identified uncertainty is relevant, but the overall essay lacks depth and sophisticated engagement. The flow and structure are adequate but could be improved with more detailed explanations and better transitions.""
+  }
+]"
+sample6.pdf,sample6.pdf,5,zeroshot,original,9,"The essay demonstrates a strong grasp of advanced modeling techniques, with clear definitions of concepts like splines and GAMs. The uncertainties raised are insightful and reflect a deep engagement with practical implementation challenges. The writing is fluid, well-organized, and the overall quality suggests a high level of understanding and careful reflection.",False,"[
+  {
+    ""id"": ""sample1.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection demonstrates a solid understanding of the week's concepts, clearly outlining key terms and their definitions. The student effectively identifies specific areas of uncertainty, demonstrating thoughtful engagement with the material. The writing is clear and organized, though flow could be improved slightly with more explicit transitions between paragraphs.""
+  },
+  {
+    ""id"": ""sample2.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay provides a comprehensive summary and detailed conceptual breakdown, including mathematical formulations, which shows a strong grasp of the material. The uncertainties raised are insightful and demonstrate a desire for deeper understanding. The structure is logical, though the flow could be smoother with more explicit transitions between the MLR and Classification sections.""
+  },
+  {
+    ""id"": ""sample3.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection is well-structured and clearly articulates the week's concepts. The 'Uncertainties' section is particularly strong, posing specific, thoughtful questions that reveal a deep engagement with the nuances of the topics. The writing is clear, concise, and flows well, demonstrating excellent understanding and a professional tone.""
+  },
+  {
+    ""id"": ""sample4.pdf"",
+    ""pred_score"": 7,
+    ""justification"": ""The essay clearly summarizes the week's focus on resampling methods and defines the core concepts accurately. The identified uncertainty is relevant and shows critical thinking about practical application. While well-structured and grammatically sound, the essay is somewhat brief, and the flow could be enhanced with slightly more detailed explanations or examples.""
+  },
+  {
+    ""id"": ""sample5.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection excels in its clarity and depth of understanding, accurately summarizing complex topics like model selection and regularization. The concepts are well-defined, and the uncertainty identified is specific and demonstrates advanced thinking. The writing is polished, well-organized, and flows logically, making it a very strong submission.""
+  },
+  {
+    ""id"": ""sample6.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay demonstrates a strong grasp of advanced modeling techniques, with clear definitions of concepts like splines and GAMs. The uncertainties raised are insightful and reflect a deep engagement with practical implementation challenges. The writing is fluid, well-organized, and the overall quality suggests a high level of understanding and careful reflection.""
+  },
+  {
+    ""id"": ""sample7.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection provides a clear and accurate summary of decision trees and ensemble methods. The concepts are well-explained, and the 'Uncertainties' section demonstrates a sophisticated understanding of the practical challenges in tuning boosting models. The writing is coherent, well-structured, and flows effectively, showcasing excellent learning.""
+  },
+  {
+    ""id"": ""sample8.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay offers a clear and comprehensive summary of unsupervised learning and PCA. The concepts are explained with excellent detail, including the mathematical underpinnings and practical applications. The 'Uncertainties' section poses highly relevant and thoughtful questions, demonstrating a deep and critical understanding of the topic. The writing is polished and well-organized.""
+  },
+  {
+    ""id"": ""bad_example_copy.pdf"",
+    ""pred_score"": 2,
+    ""justification"": ""This essay exhibits extremely poor flow, coherence, and content quality. The language is informal and vague, with minimal understanding of the week's concepts demonstrated. There are significant issues with grammar and professionalism, and the structure is entirely lacking, making it difficult to discern any meaningful reflection or learning.""
+  },
+  {
+    ""id"": ""mid_example_copy.pdf"",
+    ""pred_score"": 5,
+    ""justification"": ""This reflection provides a basic summary and conceptual understanding of classification methods, distinguishing them from regression. The concepts are explained with some clarity, though the detail is limited. The identified uncertainty is relevant, but the overall essay lacks depth and sophisticated engagement. The flow and structure are adequate but could be improved with more detailed explanations and better transitions.""
+  }
+]"
+sample7.pdf,sample7.pdf,6,zeroshot,original,9,"This reflection provides a clear and accurate summary of decision trees and ensemble methods. The concepts are well-explained, and the 'Uncertainties' section demonstrates a sophisticated understanding of the practical challenges in tuning boosting models. The writing is coherent, well-structured, and flows effectively, showcasing excellent learning.",False,"[
+  {
+    ""id"": ""sample1.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection demonstrates a solid understanding of the week's concepts, clearly outlining key terms and their definitions. The student effectively identifies specific areas of uncertainty, demonstrating thoughtful engagement with the material. The writing is clear and organized, though flow could be improved slightly with more explicit transitions between paragraphs.""
+  },
+  {
+    ""id"": ""sample2.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay provides a comprehensive summary and detailed conceptual breakdown, including mathematical formulations, which shows a strong grasp of the material. The uncertainties raised are insightful and demonstrate a desire for deeper understanding. The structure is logical, though the flow could be smoother with more explicit transitions between the MLR and Classification sections.""
+  },
+  {
+    ""id"": ""sample3.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection is well-structured and clearly articulates the week's concepts. The 'Uncertainties' section is particularly strong, posing specific, thoughtful questions that reveal a deep engagement with the nuances of the topics. The writing is clear, concise, and flows well, demonstrating excellent understanding and a professional tone.""
+  },
+  {
+    ""id"": ""sample4.pdf"",
+    ""pred_score"": 7,
+    ""justification"": ""The essay clearly summarizes the week's focus on resampling methods and defines the core concepts accurately. The identified uncertainty is relevant and shows critical thinking about practical application. While well-structured and grammatically sound, the essay is somewhat brief, and the flow could be enhanced with slightly more detailed explanations or examples.""
+  },
+  {
+    ""id"": ""sample5.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection excels in its clarity and depth of understanding, accurately summarizing complex topics like model selection and regularization. The concepts are well-defined, and the uncertainty identified is specific and demonstrates advanced thinking. The writing is polished, well-organized, and flows logically, making it a very strong submission.""
+  },
+  {
+    ""id"": ""sample6.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay demonstrates a strong grasp of advanced modeling techniques, with clear definitions of concepts like splines and GAMs. The uncertainties raised are insightful and reflect a deep engagement with practical implementation challenges. The writing is fluid, well-organized, and the overall quality suggests a high level of understanding and careful reflection.""
+  },
+  {
+    ""id"": ""sample7.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection provides a clear and accurate summary of decision trees and ensemble methods. The concepts are well-explained, and the 'Uncertainties' section demonstrates a sophisticated understanding of the practical challenges in tuning boosting models. The writing is coherent, well-structured, and flows effectively, showcasing excellent learning.""
+  },
+  {
+    ""id"": ""sample8.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay offers a clear and comprehensive summary of unsupervised learning and PCA. The concepts are explained with excellent detail, including the mathematical underpinnings and practical applications. The 'Uncertainties' section poses highly relevant and thoughtful questions, demonstrating a deep and critical understanding of the topic. The writing is polished and well-organized.""
+  },
+  {
+    ""id"": ""bad_example_copy.pdf"",
+    ""pred_score"": 2,
+    ""justification"": ""This essay exhibits extremely poor flow, coherence, and content quality. The language is informal and vague, with minimal understanding of the week's concepts demonstrated. There are significant issues with grammar and professionalism, and the structure is entirely lacking, making it difficult to discern any meaningful reflection or learning.""
+  },
+  {
+    ""id"": ""mid_example_copy.pdf"",
+    ""pred_score"": 5,
+    ""justification"": ""This reflection provides a basic summary and conceptual understanding of classification methods, distinguishing them from regression. The concepts are explained with some clarity, though the detail is limited. The identified uncertainty is relevant, but the overall essay lacks depth and sophisticated engagement. The flow and structure are adequate but could be improved with more detailed explanations and better transitions.""
+  }
+]"
+sample8.pdf,sample8.pdf,7,zeroshot,original,9,"The essay offers a clear and comprehensive summary of unsupervised learning and PCA. The concepts are explained with excellent detail, including the mathematical underpinnings and practical applications. The 'Uncertainties' section poses highly relevant and thoughtful questions, demonstrating a deep and critical understanding of the topic. The writing is polished and well-organized.",False,"[
+  {
+    ""id"": ""sample1.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection demonstrates a solid understanding of the week's concepts, clearly outlining key terms and their definitions. The student effectively identifies specific areas of uncertainty, demonstrating thoughtful engagement with the material. The writing is clear and organized, though flow could be improved slightly with more explicit transitions between paragraphs.""
+  },
+  {
+    ""id"": ""sample2.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay provides a comprehensive summary and detailed conceptual breakdown, including mathematical formulations, which shows a strong grasp of the material. The uncertainties raised are insightful and demonstrate a desire for deeper understanding. The structure is logical, though the flow could be smoother with more explicit transitions between the MLR and Classification sections.""
+  },
+  {
+    ""id"": ""sample3.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection is well-structured and clearly articulates the week's concepts. The 'Uncertainties' section is particularly strong, posing specific, thoughtful questions that reveal a deep engagement with the nuances of the topics. The writing is clear, concise, and flows well, demonstrating excellent understanding and a professional tone.""
+  },
+  {
+    ""id"": ""sample4.pdf"",
+    ""pred_score"": 7,
+    ""justification"": ""The essay clearly summarizes the week's focus on resampling methods and defines the core concepts accurately. The identified uncertainty is relevant and shows critical thinking about practical application. While well-structured and grammatically sound, the essay is somewhat brief, and the flow could be enhanced with slightly more detailed explanations or examples.""
+  },
+  {
+    ""id"": ""sample5.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection excels in its clarity and depth of understanding, accurately summarizing complex topics like model selection and regularization. The concepts are well-defined, and the uncertainty identified is specific and demonstrates advanced thinking. The writing is polished, well-organized, and flows logically, making it a very strong submission.""
+  },
+  {
+    ""id"": ""sample6.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay demonstrates a strong grasp of advanced modeling techniques, with clear definitions of concepts like splines and GAMs. The uncertainties raised are insightful and reflect a deep engagement with practical implementation challenges. The writing is fluid, well-organized, and the overall quality suggests a high level of understanding and careful reflection.""
+  },
+  {
+    ""id"": ""sample7.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection provides a clear and accurate summary of decision trees and ensemble methods. The concepts are well-explained, and the 'Uncertainties' section demonstrates a sophisticated understanding of the practical challenges in tuning boosting models. The writing is coherent, well-structured, and flows effectively, showcasing excellent learning.""
+  },
+  {
+    ""id"": ""sample8.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay offers a clear and comprehensive summary of unsupervised learning and PCA. The concepts are explained with excellent detail, including the mathematical underpinnings and practical applications. The 'Uncertainties' section poses highly relevant and thoughtful questions, demonstrating a deep and critical understanding of the topic. The writing is polished and well-organized.""
+  },
+  {
+    ""id"": ""bad_example_copy.pdf"",
+    ""pred_score"": 2,
+    ""justification"": ""This essay exhibits extremely poor flow, coherence, and content quality. The language is informal and vague, with minimal understanding of the week's concepts demonstrated. There are significant issues with grammar and professionalism, and the structure is entirely lacking, making it difficult to discern any meaningful reflection or learning.""
+  },
+  {
+    ""id"": ""mid_example_copy.pdf"",
+    ""pred_score"": 5,
+    ""justification"": ""This reflection provides a basic summary and conceptual understanding of classification methods, distinguishing them from regression. The concepts are explained with some clarity, though the detail is limited. The identified uncertainty is relevant, but the overall essay lacks depth and sophisticated engagement. The flow and structure are adequate but could be improved with more detailed explanations and better transitions.""
+  }
+]"
+bad_example_copy.pdf,bad_example_copy.pdf,8,zeroshot,original,2,"This essay exhibits extremely poor flow, coherence, and content quality. The language is informal and vague, with minimal understanding of the week's concepts demonstrated. There are significant issues with grammar and professionalism, and the structure is entirely lacking, making it difficult to discern any meaningful reflection or learning.",False,"[
+  {
+    ""id"": ""sample1.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection demonstrates a solid understanding of the week's concepts, clearly outlining key terms and their definitions. The student effectively identifies specific areas of uncertainty, demonstrating thoughtful engagement with the material. The writing is clear and organized, though flow could be improved slightly with more explicit transitions between paragraphs.""
+  },
+  {
+    ""id"": ""sample2.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay provides a comprehensive summary and detailed conceptual breakdown, including mathematical formulations, which shows a strong grasp of the material. The uncertainties raised are insightful and demonstrate a desire for deeper understanding. The structure is logical, though the flow could be smoother with more explicit transitions between the MLR and Classification sections.""
+  },
+  {
+    ""id"": ""sample3.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection is well-structured and clearly articulates the week's concepts. The 'Uncertainties' section is particularly strong, posing specific, thoughtful questions that reveal a deep engagement with the nuances of the topics. The writing is clear, concise, and flows well, demonstrating excellent understanding and a professional tone.""
+  },
+  {
+    ""id"": ""sample4.pdf"",
+    ""pred_score"": 7,
+    ""justification"": ""The essay clearly summarizes the week's focus on resampling methods and defines the core concepts accurately. The identified uncertainty is relevant and shows critical thinking about practical application. While well-structured and grammatically sound, the essay is somewhat brief, and the flow could be enhanced with slightly more detailed explanations or examples.""
+  },
+  {
+    ""id"": ""sample5.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection excels in its clarity and depth of understanding, accurately summarizing complex topics like model selection and regularization. The concepts are well-defined, and the uncertainty identified is specific and demonstrates advanced thinking. The writing is polished, well-organized, and flows logically, making it a very strong submission.""
+  },
+  {
+    ""id"": ""sample6.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay demonstrates a strong grasp of advanced modeling techniques, with clear definitions of concepts like splines and GAMs. The uncertainties raised are insightful and reflect a deep engagement with practical implementation challenges. The writing is fluid, well-organized, and the overall quality suggests a high level of understanding and careful reflection.""
+  },
+  {
+    ""id"": ""sample7.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection provides a clear and accurate summary of decision trees and ensemble methods. The concepts are well-explained, and the 'Uncertainties' section demonstrates a sophisticated understanding of the practical challenges in tuning boosting models. The writing is coherent, well-structured, and flows effectively, showcasing excellent learning.""
+  },
+  {
+    ""id"": ""sample8.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay offers a clear and comprehensive summary of unsupervised learning and PCA. The concepts are explained with excellent detail, including the mathematical underpinnings and practical applications. The 'Uncertainties' section poses highly relevant and thoughtful questions, demonstrating a deep and critical understanding of the topic. The writing is polished and well-organized.""
+  },
+  {
+    ""id"": ""bad_example_copy.pdf"",
+    ""pred_score"": 2,
+    ""justification"": ""This essay exhibits extremely poor flow, coherence, and content quality. The language is informal and vague, with minimal understanding of the week's concepts demonstrated. There are significant issues with grammar and professionalism, and the structure is entirely lacking, making it difficult to discern any meaningful reflection or learning.""
+  },
+  {
+    ""id"": ""mid_example_copy.pdf"",
+    ""pred_score"": 5,
+    ""justification"": ""This reflection provides a basic summary and conceptual understanding of classification methods, distinguishing them from regression. The concepts are explained with some clarity, though the detail is limited. The identified uncertainty is relevant, but the overall essay lacks depth and sophisticated engagement. The flow and structure are adequate but could be improved with more detailed explanations and better transitions.""
+  }
+]"
+mid_example_copy.pdf,mid_example_copy.pdf,9,zeroshot,original,5,"This reflection provides a basic summary and conceptual understanding of classification methods, distinguishing them from regression. The concepts are explained with some clarity, though the detail is limited. The identified uncertainty is relevant, but the overall essay lacks depth and sophisticated engagement. The flow and structure are adequate but could be improved with more detailed explanations and better transitions.",False,"[
+  {
+    ""id"": ""sample1.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection demonstrates a solid understanding of the week's concepts, clearly outlining key terms and their definitions. The student effectively identifies specific areas of uncertainty, demonstrating thoughtful engagement with the material. The writing is clear and organized, though flow could be improved slightly with more explicit transitions between paragraphs.""
+  },
+  {
+    ""id"": ""sample2.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay provides a comprehensive summary and detailed conceptual breakdown, including mathematical formulations, which shows a strong grasp of the material. The uncertainties raised are insightful and demonstrate a desire for deeper understanding. The structure is logical, though the flow could be smoother with more explicit transitions between the MLR and Classification sections.""
+  },
+  {
+    ""id"": ""sample3.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection is well-structured and clearly articulates the week's concepts. The 'Uncertainties' section is particularly strong, posing specific, thoughtful questions that reveal a deep engagement with the nuances of the topics. The writing is clear, concise, and flows well, demonstrating excellent understanding and a professional tone.""
+  },
+  {
+    ""id"": ""sample4.pdf"",
+    ""pred_score"": 7,
+    ""justification"": ""The essay clearly summarizes the week's focus on resampling methods and defines the core concepts accurately. The identified uncertainty is relevant and shows critical thinking about practical application. While well-structured and grammatically sound, the essay is somewhat brief, and the flow could be enhanced with slightly more detailed explanations or examples.""
+  },
+  {
+    ""id"": ""sample5.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection excels in its clarity and depth of understanding, accurately summarizing complex topics like model selection and regularization. The concepts are well-defined, and the uncertainty identified is specific and demonstrates advanced thinking. The writing is polished, well-organized, and flows logically, making it a very strong submission.""
+  },
+  {
+    ""id"": ""sample6.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay demonstrates a strong grasp of advanced modeling techniques, with clear definitions of concepts like splines and GAMs. The uncertainties raised are insightful and reflect a deep engagement with practical implementation challenges. The writing is fluid, well-organized, and the overall quality suggests a high level of understanding and careful reflection.""
+  },
+  {
+    ""id"": ""sample7.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection provides a clear and accurate summary of decision trees and ensemble methods. The concepts are well-explained, and the 'Uncertainties' section demonstrates a sophisticated understanding of the practical challenges in tuning boosting models. The writing is coherent, well-structured, and flows effectively, showcasing excellent learning.""
+  },
+  {
+    ""id"": ""sample8.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay offers a clear and comprehensive summary of unsupervised learning and PCA. The concepts are explained with excellent detail, including the mathematical underpinnings and practical applications. The 'Uncertainties' section poses highly relevant and thoughtful questions, demonstrating a deep and critical understanding of the topic. The writing is polished and well-organized.""
+  },
+  {
+    ""id"": ""bad_example_copy.pdf"",
+    ""pred_score"": 2,
+    ""justification"": ""This essay exhibits extremely poor flow, coherence, and content quality. The language is informal and vague, with minimal understanding of the week's concepts demonstrated. There are significant issues with grammar and professionalism, and the structure is entirely lacking, making it difficult to discern any meaningful reflection or learning.""
+  },
+  {
+    ""id"": ""mid_example_copy.pdf"",
+    ""pred_score"": 5,
+    ""justification"": ""This reflection provides a basic summary and conceptual understanding of classification methods, distinguishing them from regression. The concepts are explained with some clarity, though the detail is limited. The identified uncertainty is relevant, but the overall essay lacks depth and sophisticated engagement. The flow and structure are adequate but could be improved with more detailed explanations and better transitions.""
+  }
+]"

@@ -1,0 +1,521 @@
+id,sample_name,position_in_run,mode,order,pred_score,justification,clamped,raw_json
+mid_example_copy.pdf,mid_example_copy.pdf,0,zeroshot,reversed,7,"This essay demonstrates a good grasp of the core concepts of logistic and discriminant classification, accurately summarizing their key features. The language is clear and the structure is logical, making it easy to follow the student's understanding. The identification of a specific uncertainty regarding the number of groups in logistic classification shows thoughtful engagement with the material.",False,"[
+  {
+    ""id"": ""mid_example_copy.pdf"",
+    ""pred_score"": 7,
+    ""justification"": ""This essay demonstrates a good grasp of the core concepts of logistic and discriminant classification, accurately summarizing their key features. The language is clear and the structure is logical, making it easy to follow the student's understanding. The identification of a specific uncertainty regarding the number of groups in logistic classification shows thoughtful engagement with the material.""
+  },
+  {
+    ""id"": ""bad_example_copy.pdf"",
+    ""pred_score"": 2,
+    ""justification"": ""This reflection exhibits a severe lack of understanding of the week's material, with vague descriptions and admissions of not remembering key concepts. The flow is poor, and there's no discernible structure or connection to course topics. The student expresses significant confusion and a lack of engagement, making it difficult to assess any learning.""
+  },
+  {
+    ""id"": ""sample8.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection provides a comprehensive and well-articulated summary of unsupervised learning and PCA, detailing key concepts like eigenvectors and the covariance matrix. The student demonstrates deep understanding by clearly explaining the purpose and derivation of principal components. The identified uncertainties are specific and reflect a higher level of engagement with practical application challenges.""
+  },
+  {
+    ""id"": ""sample7.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay effectively summarizes tree-based methods and ensemble techniques, clearly outlining the principles of decision trees, bagging, random forests, and boosting. The student's understanding of the concepts is evident through detailed explanations and the connection between interpretability and performance. The uncertainty about balancing boosting hyperparameters is insightful and relevant.""
+  },
+  {
+    ""id"": ""sample6.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection offers a thorough explanation of basis expansions and smoothers, including detailed descriptions of various spline types and GAMs. The student demonstrates a solid grasp of the flexibility and applications of these non-linear modeling techniques. The uncertainty regarding knot selection in splines is specific and reflects a desire for deeper practical knowledge.""
+  },
+  {
+    ""id"": ""sample5.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay clearly summarizes linear model selection and regularization techniques, accurately explaining best subset, stepwise selection, ridge, and lasso. The student demonstrates a good understanding of how these methods enhance model performance and interpretability, with a clear explanation of the bias-variance tradeoff. The uncertainty about preferring ridge over lasso is a pertinent and advanced question.""
+  },
+  {
+    ""id"": ""sample4.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection accurately summarizes resampling methods, particularly cross-validation and the bootstrap, explaining their utility in model accuracy estimation. The student clearly articulates the purpose of these techniques when test sets are unavailable. The uncertainty about choosing between cross-validation and bootstrap is practical and shows good analytical thinking.""
+  },
+  {
+    ""id"": ""sample3.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay provides a concise yet comprehensive summary of decision trees and ensemble methods, clearly explaining the mechanics of each. The student demonstrates strong conceptual understanding by detailing how trees partition space and how ensembles improve accuracy. The outlined uncertainties reflect a thoughtful consideration of practical model selection and hyperparameter tuning.""
+  },
+  {
+    ""id"": ""sample2.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection offers a detailed and technically accurate summary of multiple linear regression and the introduction to logistic regression, including key formulas and statistical concepts. The student demonstrates a strong grasp of the mathematical underpinnings. The articulated uncertainties, particularly regarding multi-class classification and the mechanics of MLE/gradient descent, are insightful and relevant.""
+  },
+  {
+    ""id"": ""sample1.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay effectively summarizes deep learning and neural networks, explaining core concepts like layers, activation functions, and backpropagation. The student demonstrates a good understanding of how these models learn complex relationships. The identified uncertainties regarding hyperparameter tuning, interpretability, and the mechanics of backpropagation are well-chosen and reflect common challenges in the field.""
+  }
+]"
+bad_example_copy.pdf,bad_example_copy.pdf,1,zeroshot,reversed,2,"This reflection exhibits a severe lack of understanding of the week's material, with vague descriptions and admissions of not remembering key concepts. The flow is poor, and there's no discernible structure or connection to course topics. The student expresses significant confusion and a lack of engagement, making it difficult to assess any learning.",False,"[
+  {
+    ""id"": ""mid_example_copy.pdf"",
+    ""pred_score"": 7,
+    ""justification"": ""This essay demonstrates a good grasp of the core concepts of logistic and discriminant classification, accurately summarizing their key features. The language is clear and the structure is logical, making it easy to follow the student's understanding. The identification of a specific uncertainty regarding the number of groups in logistic classification shows thoughtful engagement with the material.""
+  },
+  {
+    ""id"": ""bad_example_copy.pdf"",
+    ""pred_score"": 2,
+    ""justification"": ""This reflection exhibits a severe lack of understanding of the week's material, with vague descriptions and admissions of not remembering key concepts. The flow is poor, and there's no discernible structure or connection to course topics. The student expresses significant confusion and a lack of engagement, making it difficult to assess any learning.""
+  },
+  {
+    ""id"": ""sample8.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection provides a comprehensive and well-articulated summary of unsupervised learning and PCA, detailing key concepts like eigenvectors and the covariance matrix. The student demonstrates deep understanding by clearly explaining the purpose and derivation of principal components. The identified uncertainties are specific and reflect a higher level of engagement with practical application challenges.""
+  },
+  {
+    ""id"": ""sample7.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay effectively summarizes tree-based methods and ensemble techniques, clearly outlining the principles of decision trees, bagging, random forests, and boosting. The student's understanding of the concepts is evident through detailed explanations and the connection between interpretability and performance. The uncertainty about balancing boosting hyperparameters is insightful and relevant.""
+  },
+  {
+    ""id"": ""sample6.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection offers a thorough explanation of basis expansions and smoothers, including detailed descriptions of various spline types and GAMs. The student demonstrates a solid grasp of the flexibility and applications of these non-linear modeling techniques. The uncertainty regarding knot selection in splines is specific and reflects a desire for deeper practical knowledge.""
+  },
+  {
+    ""id"": ""sample5.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay clearly summarizes linear model selection and regularization techniques, accurately explaining best subset, stepwise selection, ridge, and lasso. The student demonstrates a good understanding of how these methods enhance model performance and interpretability, with a clear explanation of the bias-variance tradeoff. The uncertainty about preferring ridge over lasso is a pertinent and advanced question.""
+  },
+  {
+    ""id"": ""sample4.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection accurately summarizes resampling methods, particularly cross-validation and the bootstrap, explaining their utility in model accuracy estimation. The student clearly articulates the purpose of these techniques when test sets are unavailable. The uncertainty about choosing between cross-validation and bootstrap is practical and shows good analytical thinking.""
+  },
+  {
+    ""id"": ""sample3.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay provides a concise yet comprehensive summary of decision trees and ensemble methods, clearly explaining the mechanics of each. The student demonstrates strong conceptual understanding by detailing how trees partition space and how ensembles improve accuracy. The outlined uncertainties reflect a thoughtful consideration of practical model selection and hyperparameter tuning.""
+  },
+  {
+    ""id"": ""sample2.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection offers a detailed and technically accurate summary of multiple linear regression and the introduction to logistic regression, including key formulas and statistical concepts. The student demonstrates a strong grasp of the mathematical underpinnings. The articulated uncertainties, particularly regarding multi-class classification and the mechanics of MLE/gradient descent, are insightful and relevant.""
+  },
+  {
+    ""id"": ""sample1.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay effectively summarizes deep learning and neural networks, explaining core concepts like layers, activation functions, and backpropagation. The student demonstrates a good understanding of how these models learn complex relationships. The identified uncertainties regarding hyperparameter tuning, interpretability, and the mechanics of backpropagation are well-chosen and reflect common challenges in the field.""
+  }
+]"
+sample8.pdf,sample8.pdf,2,zeroshot,reversed,9,"This reflection provides a comprehensive and well-articulated summary of unsupervised learning and PCA, detailing key concepts like eigenvectors and the covariance matrix. The student demonstrates deep understanding by clearly explaining the purpose and derivation of principal components. The identified uncertainties are specific and reflect a higher level of engagement with practical application challenges.",False,"[
+  {
+    ""id"": ""mid_example_copy.pdf"",
+    ""pred_score"": 7,
+    ""justification"": ""This essay demonstrates a good grasp of the core concepts of logistic and discriminant classification, accurately summarizing their key features. The language is clear and the structure is logical, making it easy to follow the student's understanding. The identification of a specific uncertainty regarding the number of groups in logistic classification shows thoughtful engagement with the material.""
+  },
+  {
+    ""id"": ""bad_example_copy.pdf"",
+    ""pred_score"": 2,
+    ""justification"": ""This reflection exhibits a severe lack of understanding of the week's material, with vague descriptions and admissions of not remembering key concepts. The flow is poor, and there's no discernible structure or connection to course topics. The student expresses significant confusion and a lack of engagement, making it difficult to assess any learning.""
+  },
+  {
+    ""id"": ""sample8.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection provides a comprehensive and well-articulated summary of unsupervised learning and PCA, detailing key concepts like eigenvectors and the covariance matrix. The student demonstrates deep understanding by clearly explaining the purpose and derivation of principal components. The identified uncertainties are specific and reflect a higher level of engagement with practical application challenges.""
+  },
+  {
+    ""id"": ""sample7.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay effectively summarizes tree-based methods and ensemble techniques, clearly outlining the principles of decision trees, bagging, random forests, and boosting. The student's understanding of the concepts is evident through detailed explanations and the connection between interpretability and performance. The uncertainty about balancing boosting hyperparameters is insightful and relevant.""
+  },
+  {
+    ""id"": ""sample6.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection offers a thorough explanation of basis expansions and smoothers, including detailed descriptions of various spline types and GAMs. The student demonstrates a solid grasp of the flexibility and applications of these non-linear modeling techniques. The uncertainty regarding knot selection in splines is specific and reflects a desire for deeper practical knowledge.""
+  },
+  {
+    ""id"": ""sample5.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay clearly summarizes linear model selection and regularization techniques, accurately explaining best subset, stepwise selection, ridge, and lasso. The student demonstrates a good understanding of how these methods enhance model performance and interpretability, with a clear explanation of the bias-variance tradeoff. The uncertainty about preferring ridge over lasso is a pertinent and advanced question.""
+  },
+  {
+    ""id"": ""sample4.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection accurately summarizes resampling methods, particularly cross-validation and the bootstrap, explaining their utility in model accuracy estimation. The student clearly articulates the purpose of these techniques when test sets are unavailable. The uncertainty about choosing between cross-validation and bootstrap is practical and shows good analytical thinking.""
+  },
+  {
+    ""id"": ""sample3.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay provides a concise yet comprehensive summary of decision trees and ensemble methods, clearly explaining the mechanics of each. The student demonstrates strong conceptual understanding by detailing how trees partition space and how ensembles improve accuracy. The outlined uncertainties reflect a thoughtful consideration of practical model selection and hyperparameter tuning.""
+  },
+  {
+    ""id"": ""sample2.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection offers a detailed and technically accurate summary of multiple linear regression and the introduction to logistic regression, including key formulas and statistical concepts. The student demonstrates a strong grasp of the mathematical underpinnings. The articulated uncertainties, particularly regarding multi-class classification and the mechanics of MLE/gradient descent, are insightful and relevant.""
+  },
+  {
+    ""id"": ""sample1.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay effectively summarizes deep learning and neural networks, explaining core concepts like layers, activation functions, and backpropagation. The student demonstrates a good understanding of how these models learn complex relationships. The identified uncertainties regarding hyperparameter tuning, interpretability, and the mechanics of backpropagation are well-chosen and reflect common challenges in the field.""
+  }
+]"
+sample7.pdf,sample7.pdf,3,zeroshot,reversed,9,"The essay effectively summarizes tree-based methods and ensemble techniques, clearly outlining the principles of decision trees, bagging, random forests, and boosting. The student's understanding of the concepts is evident through detailed explanations and the connection between interpretability and performance. The uncertainty about balancing boosting hyperparameters is insightful and relevant.",False,"[
+  {
+    ""id"": ""mid_example_copy.pdf"",
+    ""pred_score"": 7,
+    ""justification"": ""This essay demonstrates a good grasp of the core concepts of logistic and discriminant classification, accurately summarizing their key features. The language is clear and the structure is logical, making it easy to follow the student's understanding. The identification of a specific uncertainty regarding the number of groups in logistic classification shows thoughtful engagement with the material.""
+  },
+  {
+    ""id"": ""bad_example_copy.pdf"",
+    ""pred_score"": 2,
+    ""justification"": ""This reflection exhibits a severe lack of understanding of the week's material, with vague descriptions and admissions of not remembering key concepts. The flow is poor, and there's no discernible structure or connection to course topics. The student expresses significant confusion and a lack of engagement, making it difficult to assess any learning.""
+  },
+  {
+    ""id"": ""sample8.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection provides a comprehensive and well-articulated summary of unsupervised learning and PCA, detailing key concepts like eigenvectors and the covariance matrix. The student demonstrates deep understanding by clearly explaining the purpose and derivation of principal components. The identified uncertainties are specific and reflect a higher level of engagement with practical application challenges.""
+  },
+  {
+    ""id"": ""sample7.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay effectively summarizes tree-based methods and ensemble techniques, clearly outlining the principles of decision trees, bagging, random forests, and boosting. The student's understanding of the concepts is evident through detailed explanations and the connection between interpretability and performance. The uncertainty about balancing boosting hyperparameters is insightful and relevant.""
+  },
+  {
+    ""id"": ""sample6.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection offers a thorough explanation of basis expansions and smoothers, including detailed descriptions of various spline types and GAMs. The student demonstrates a solid grasp of the flexibility and applications of these non-linear modeling techniques. The uncertainty regarding knot selection in splines is specific and reflects a desire for deeper practical knowledge.""
+  },
+  {
+    ""id"": ""sample5.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay clearly summarizes linear model selection and regularization techniques, accurately explaining best subset, stepwise selection, ridge, and lasso. The student demonstrates a good understanding of how these methods enhance model performance and interpretability, with a clear explanation of the bias-variance tradeoff. The uncertainty about preferring ridge over lasso is a pertinent and advanced question.""
+  },
+  {
+    ""id"": ""sample4.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection accurately summarizes resampling methods, particularly cross-validation and the bootstrap, explaining their utility in model accuracy estimation. The student clearly articulates the purpose of these techniques when test sets are unavailable. The uncertainty about choosing between cross-validation and bootstrap is practical and shows good analytical thinking.""
+  },
+  {
+    ""id"": ""sample3.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay provides a concise yet comprehensive summary of decision trees and ensemble methods, clearly explaining the mechanics of each. The student demonstrates strong conceptual understanding by detailing how trees partition space and how ensembles improve accuracy. The outlined uncertainties reflect a thoughtful consideration of practical model selection and hyperparameter tuning.""
+  },
+  {
+    ""id"": ""sample2.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection offers a detailed and technically accurate summary of multiple linear regression and the introduction to logistic regression, including key formulas and statistical concepts. The student demonstrates a strong grasp of the mathematical underpinnings. The articulated uncertainties, particularly regarding multi-class classification and the mechanics of MLE/gradient descent, are insightful and relevant.""
+  },
+  {
+    ""id"": ""sample1.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay effectively summarizes deep learning and neural networks, explaining core concepts like layers, activation functions, and backpropagation. The student demonstrates a good understanding of how these models learn complex relationships. The identified uncertainties regarding hyperparameter tuning, interpretability, and the mechanics of backpropagation are well-chosen and reflect common challenges in the field.""
+  }
+]"
+sample6.pdf,sample6.pdf,4,zeroshot,reversed,9,"This reflection offers a thorough explanation of basis expansions and smoothers, including detailed descriptions of various spline types and GAMs. The student demonstrates a solid grasp of the flexibility and applications of these non-linear modeling techniques. The uncertainty regarding knot selection in splines is specific and reflects a desire for deeper practical knowledge.",False,"[
+  {
+    ""id"": ""mid_example_copy.pdf"",
+    ""pred_score"": 7,
+    ""justification"": ""This essay demonstrates a good grasp of the core concepts of logistic and discriminant classification, accurately summarizing their key features. The language is clear and the structure is logical, making it easy to follow the student's understanding. The identification of a specific uncertainty regarding the number of groups in logistic classification shows thoughtful engagement with the material.""
+  },
+  {
+    ""id"": ""bad_example_copy.pdf"",
+    ""pred_score"": 2,
+    ""justification"": ""This reflection exhibits a severe lack of understanding of the week's material, with vague descriptions and admissions of not remembering key concepts. The flow is poor, and there's no discernible structure or connection to course topics. The student expresses significant confusion and a lack of engagement, making it difficult to assess any learning.""
+  },
+  {
+    ""id"": ""sample8.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection provides a comprehensive and well-articulated summary of unsupervised learning and PCA, detailing key concepts like eigenvectors and the covariance matrix. The student demonstrates deep understanding by clearly explaining the purpose and derivation of principal components. The identified uncertainties are specific and reflect a higher level of engagement with practical application challenges.""
+  },
+  {
+    ""id"": ""sample7.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay effectively summarizes tree-based methods and ensemble techniques, clearly outlining the principles of decision trees, bagging, random forests, and boosting. The student's understanding of the concepts is evident through detailed explanations and the connection between interpretability and performance. The uncertainty about balancing boosting hyperparameters is insightful and relevant.""
+  },
+  {
+    ""id"": ""sample6.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection offers a thorough explanation of basis expansions and smoothers, including detailed descriptions of various spline types and GAMs. The student demonstrates a solid grasp of the flexibility and applications of these non-linear modeling techniques. The uncertainty regarding knot selection in splines is specific and reflects a desire for deeper practical knowledge.""
+  },
+  {
+    ""id"": ""sample5.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay clearly summarizes linear model selection and regularization techniques, accurately explaining best subset, stepwise selection, ridge, and lasso. The student demonstrates a good understanding of how these methods enhance model performance and interpretability, with a clear explanation of the bias-variance tradeoff. The uncertainty about preferring ridge over lasso is a pertinent and advanced question.""
+  },
+  {
+    ""id"": ""sample4.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection accurately summarizes resampling methods, particularly cross-validation and the bootstrap, explaining their utility in model accuracy estimation. The student clearly articulates the purpose of these techniques when test sets are unavailable. The uncertainty about choosing between cross-validation and bootstrap is practical and shows good analytical thinking.""
+  },
+  {
+    ""id"": ""sample3.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay provides a concise yet comprehensive summary of decision trees and ensemble methods, clearly explaining the mechanics of each. The student demonstrates strong conceptual understanding by detailing how trees partition space and how ensembles improve accuracy. The outlined uncertainties reflect a thoughtful consideration of practical model selection and hyperparameter tuning.""
+  },
+  {
+    ""id"": ""sample2.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection offers a detailed and technically accurate summary of multiple linear regression and the introduction to logistic regression, including key formulas and statistical concepts. The student demonstrates a strong grasp of the mathematical underpinnings. The articulated uncertainties, particularly regarding multi-class classification and the mechanics of MLE/gradient descent, are insightful and relevant.""
+  },
+  {
+    ""id"": ""sample1.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay effectively summarizes deep learning and neural networks, explaining core concepts like layers, activation functions, and backpropagation. The student demonstrates a good understanding of how these models learn complex relationships. The identified uncertainties regarding hyperparameter tuning, interpretability, and the mechanics of backpropagation are well-chosen and reflect common challenges in the field.""
+  }
+]"
+sample5.pdf,sample5.pdf,5,zeroshot,reversed,9,"The essay clearly summarizes linear model selection and regularization techniques, accurately explaining best subset, stepwise selection, ridge, and lasso. The student demonstrates a good understanding of how these methods enhance model performance and interpretability, with a clear explanation of the bias-variance tradeoff. The uncertainty about preferring ridge over lasso is a pertinent and advanced question.",False,"[
+  {
+    ""id"": ""mid_example_copy.pdf"",
+    ""pred_score"": 7,
+    ""justification"": ""This essay demonstrates a good grasp of the core concepts of logistic and discriminant classification, accurately summarizing their key features. The language is clear and the structure is logical, making it easy to follow the student's understanding. The identification of a specific uncertainty regarding the number of groups in logistic classification shows thoughtful engagement with the material.""
+  },
+  {
+    ""id"": ""bad_example_copy.pdf"",
+    ""pred_score"": 2,
+    ""justification"": ""This reflection exhibits a severe lack of understanding of the week's material, with vague descriptions and admissions of not remembering key concepts. The flow is poor, and there's no discernible structure or connection to course topics. The student expresses significant confusion and a lack of engagement, making it difficult to assess any learning.""
+  },
+  {
+    ""id"": ""sample8.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection provides a comprehensive and well-articulated summary of unsupervised learning and PCA, detailing key concepts like eigenvectors and the covariance matrix. The student demonstrates deep understanding by clearly explaining the purpose and derivation of principal components. The identified uncertainties are specific and reflect a higher level of engagement with practical application challenges.""
+  },
+  {
+    ""id"": ""sample7.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay effectively summarizes tree-based methods and ensemble techniques, clearly outlining the principles of decision trees, bagging, random forests, and boosting. The student's understanding of the concepts is evident through detailed explanations and the connection between interpretability and performance. The uncertainty about balancing boosting hyperparameters is insightful and relevant.""
+  },
+  {
+    ""id"": ""sample6.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection offers a thorough explanation of basis expansions and smoothers, including detailed descriptions of various spline types and GAMs. The student demonstrates a solid grasp of the flexibility and applications of these non-linear modeling techniques. The uncertainty regarding knot selection in splines is specific and reflects a desire for deeper practical knowledge.""
+  },
+  {
+    ""id"": ""sample5.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay clearly summarizes linear model selection and regularization techniques, accurately explaining best subset, stepwise selection, ridge, and lasso. The student demonstrates a good understanding of how these methods enhance model performance and interpretability, with a clear explanation of the bias-variance tradeoff. The uncertainty about preferring ridge over lasso is a pertinent and advanced question.""
+  },
+  {
+    ""id"": ""sample4.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection accurately summarizes resampling methods, particularly cross-validation and the bootstrap, explaining their utility in model accuracy estimation. The student clearly articulates the purpose of these techniques when test sets are unavailable. The uncertainty about choosing between cross-validation and bootstrap is practical and shows good analytical thinking.""
+  },
+  {
+    ""id"": ""sample3.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay provides a concise yet comprehensive summary of decision trees and ensemble methods, clearly explaining the mechanics of each. The student demonstrates strong conceptual understanding by detailing how trees partition space and how ensembles improve accuracy. The outlined uncertainties reflect a thoughtful consideration of practical model selection and hyperparameter tuning.""
+  },
+  {
+    ""id"": ""sample2.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection offers a detailed and technically accurate summary of multiple linear regression and the introduction to logistic regression, including key formulas and statistical concepts. The student demonstrates a strong grasp of the mathematical underpinnings. The articulated uncertainties, particularly regarding multi-class classification and the mechanics of MLE/gradient descent, are insightful and relevant.""
+  },
+  {
+    ""id"": ""sample1.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay effectively summarizes deep learning and neural networks, explaining core concepts like layers, activation functions, and backpropagation. The student demonstrates a good understanding of how these models learn complex relationships. The identified uncertainties regarding hyperparameter tuning, interpretability, and the mechanics of backpropagation are well-chosen and reflect common challenges in the field.""
+  }
+]"
+sample4.pdf,sample4.pdf,6,zeroshot,reversed,8,"This reflection accurately summarizes resampling methods, particularly cross-validation and the bootstrap, explaining their utility in model accuracy estimation. The student clearly articulates the purpose of these techniques when test sets are unavailable. The uncertainty about choosing between cross-validation and bootstrap is practical and shows good analytical thinking.",False,"[
+  {
+    ""id"": ""mid_example_copy.pdf"",
+    ""pred_score"": 7,
+    ""justification"": ""This essay demonstrates a good grasp of the core concepts of logistic and discriminant classification, accurately summarizing their key features. The language is clear and the structure is logical, making it easy to follow the student's understanding. The identification of a specific uncertainty regarding the number of groups in logistic classification shows thoughtful engagement with the material.""
+  },
+  {
+    ""id"": ""bad_example_copy.pdf"",
+    ""pred_score"": 2,
+    ""justification"": ""This reflection exhibits a severe lack of understanding of the week's material, with vague descriptions and admissions of not remembering key concepts. The flow is poor, and there's no discernible structure or connection to course topics. The student expresses significant confusion and a lack of engagement, making it difficult to assess any learning.""
+  },
+  {
+    ""id"": ""sample8.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection provides a comprehensive and well-articulated summary of unsupervised learning and PCA, detailing key concepts like eigenvectors and the covariance matrix. The student demonstrates deep understanding by clearly explaining the purpose and derivation of principal components. The identified uncertainties are specific and reflect a higher level of engagement with practical application challenges.""
+  },
+  {
+    ""id"": ""sample7.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay effectively summarizes tree-based methods and ensemble techniques, clearly outlining the principles of decision trees, bagging, random forests, and boosting. The student's understanding of the concepts is evident through detailed explanations and the connection between interpretability and performance. The uncertainty about balancing boosting hyperparameters is insightful and relevant.""
+  },
+  {
+    ""id"": ""sample6.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection offers a thorough explanation of basis expansions and smoothers, including detailed descriptions of various spline types and GAMs. The student demonstrates a solid grasp of the flexibility and applications of these non-linear modeling techniques. The uncertainty regarding knot selection in splines is specific and reflects a desire for deeper practical knowledge.""
+  },
+  {
+    ""id"": ""sample5.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay clearly summarizes linear model selection and regularization techniques, accurately explaining best subset, stepwise selection, ridge, and lasso. The student demonstrates a good understanding of how these methods enhance model performance and interpretability, with a clear explanation of the bias-variance tradeoff. The uncertainty about preferring ridge over lasso is a pertinent and advanced question.""
+  },
+  {
+    ""id"": ""sample4.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection accurately summarizes resampling methods, particularly cross-validation and the bootstrap, explaining their utility in model accuracy estimation. The student clearly articulates the purpose of these techniques when test sets are unavailable. The uncertainty about choosing between cross-validation and bootstrap is practical and shows good analytical thinking.""
+  },
+  {
+    ""id"": ""sample3.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay provides a concise yet comprehensive summary of decision trees and ensemble methods, clearly explaining the mechanics of each. The student demonstrates strong conceptual understanding by detailing how trees partition space and how ensembles improve accuracy. The outlined uncertainties reflect a thoughtful consideration of practical model selection and hyperparameter tuning.""
+  },
+  {
+    ""id"": ""sample2.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection offers a detailed and technically accurate summary of multiple linear regression and the introduction to logistic regression, including key formulas and statistical concepts. The student demonstrates a strong grasp of the mathematical underpinnings. The articulated uncertainties, particularly regarding multi-class classification and the mechanics of MLE/gradient descent, are insightful and relevant.""
+  },
+  {
+    ""id"": ""sample1.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay effectively summarizes deep learning and neural networks, explaining core concepts like layers, activation functions, and backpropagation. The student demonstrates a good understanding of how these models learn complex relationships. The identified uncertainties regarding hyperparameter tuning, interpretability, and the mechanics of backpropagation are well-chosen and reflect common challenges in the field.""
+  }
+]"
+sample3.pdf,sample3.pdf,7,zeroshot,reversed,9,"The essay provides a concise yet comprehensive summary of decision trees and ensemble methods, clearly explaining the mechanics of each. The student demonstrates strong conceptual understanding by detailing how trees partition space and how ensembles improve accuracy. The outlined uncertainties reflect a thoughtful consideration of practical model selection and hyperparameter tuning.",False,"[
+  {
+    ""id"": ""mid_example_copy.pdf"",
+    ""pred_score"": 7,
+    ""justification"": ""This essay demonstrates a good grasp of the core concepts of logistic and discriminant classification, accurately summarizing their key features. The language is clear and the structure is logical, making it easy to follow the student's understanding. The identification of a specific uncertainty regarding the number of groups in logistic classification shows thoughtful engagement with the material.""
+  },
+  {
+    ""id"": ""bad_example_copy.pdf"",
+    ""pred_score"": 2,
+    ""justification"": ""This reflection exhibits a severe lack of understanding of the week's material, with vague descriptions and admissions of not remembering key concepts. The flow is poor, and there's no discernible structure or connection to course topics. The student expresses significant confusion and a lack of engagement, making it difficult to assess any learning.""
+  },
+  {
+    ""id"": ""sample8.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection provides a comprehensive and well-articulated summary of unsupervised learning and PCA, detailing key concepts like eigenvectors and the covariance matrix. The student demonstrates deep understanding by clearly explaining the purpose and derivation of principal components. The identified uncertainties are specific and reflect a higher level of engagement with practical application challenges.""
+  },
+  {
+    ""id"": ""sample7.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay effectively summarizes tree-based methods and ensemble techniques, clearly outlining the principles of decision trees, bagging, random forests, and boosting. The student's understanding of the concepts is evident through detailed explanations and the connection between interpretability and performance. The uncertainty about balancing boosting hyperparameters is insightful and relevant.""
+  },
+  {
+    ""id"": ""sample6.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection offers a thorough explanation of basis expansions and smoothers, including detailed descriptions of various spline types and GAMs. The student demonstrates a solid grasp of the flexibility and applications of these non-linear modeling techniques. The uncertainty regarding knot selection in splines is specific and reflects a desire for deeper practical knowledge.""
+  },
+  {
+    ""id"": ""sample5.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay clearly summarizes linear model selection and regularization techniques, accurately explaining best subset, stepwise selection, ridge, and lasso. The student demonstrates a good understanding of how these methods enhance model performance and interpretability, with a clear explanation of the bias-variance tradeoff. The uncertainty about preferring ridge over lasso is a pertinent and advanced question.""
+  },
+  {
+    ""id"": ""sample4.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection accurately summarizes resampling methods, particularly cross-validation and the bootstrap, explaining their utility in model accuracy estimation. The student clearly articulates the purpose of these techniques when test sets are unavailable. The uncertainty about choosing between cross-validation and bootstrap is practical and shows good analytical thinking.""
+  },
+  {
+    ""id"": ""sample3.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay provides a concise yet comprehensive summary of decision trees and ensemble methods, clearly explaining the mechanics of each. The student demonstrates strong conceptual understanding by detailing how trees partition space and how ensembles improve accuracy. The outlined uncertainties reflect a thoughtful consideration of practical model selection and hyperparameter tuning.""
+  },
+  {
+    ""id"": ""sample2.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection offers a detailed and technically accurate summary of multiple linear regression and the introduction to logistic regression, including key formulas and statistical concepts. The student demonstrates a strong grasp of the mathematical underpinnings. The articulated uncertainties, particularly regarding multi-class classification and the mechanics of MLE/gradient descent, are insightful and relevant.""
+  },
+  {
+    ""id"": ""sample1.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay effectively summarizes deep learning and neural networks, explaining core concepts like layers, activation functions, and backpropagation. The student demonstrates a good understanding of how these models learn complex relationships. The identified uncertainties regarding hyperparameter tuning, interpretability, and the mechanics of backpropagation are well-chosen and reflect common challenges in the field.""
+  }
+]"
+sample2.pdf,sample2.pdf,8,zeroshot,reversed,8,"This reflection offers a detailed and technically accurate summary of multiple linear regression and the introduction to logistic regression, including key formulas and statistical concepts. The student demonstrates a strong grasp of the mathematical underpinnings. The articulated uncertainties, particularly regarding multi-class classification and the mechanics of MLE/gradient descent, are insightful and relevant.",False,"[
+  {
+    ""id"": ""mid_example_copy.pdf"",
+    ""pred_score"": 7,
+    ""justification"": ""This essay demonstrates a good grasp of the core concepts of logistic and discriminant classification, accurately summarizing their key features. The language is clear and the structure is logical, making it easy to follow the student's understanding. The identification of a specific uncertainty regarding the number of groups in logistic classification shows thoughtful engagement with the material.""
+  },
+  {
+    ""id"": ""bad_example_copy.pdf"",
+    ""pred_score"": 2,
+    ""justification"": ""This reflection exhibits a severe lack of understanding of the week's material, with vague descriptions and admissions of not remembering key concepts. The flow is poor, and there's no discernible structure or connection to course topics. The student expresses significant confusion and a lack of engagement, making it difficult to assess any learning.""
+  },
+  {
+    ""id"": ""sample8.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection provides a comprehensive and well-articulated summary of unsupervised learning and PCA, detailing key concepts like eigenvectors and the covariance matrix. The student demonstrates deep understanding by clearly explaining the purpose and derivation of principal components. The identified uncertainties are specific and reflect a higher level of engagement with practical application challenges.""
+  },
+  {
+    ""id"": ""sample7.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay effectively summarizes tree-based methods and ensemble techniques, clearly outlining the principles of decision trees, bagging, random forests, and boosting. The student's understanding of the concepts is evident through detailed explanations and the connection between interpretability and performance. The uncertainty about balancing boosting hyperparameters is insightful and relevant.""
+  },
+  {
+    ""id"": ""sample6.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection offers a thorough explanation of basis expansions and smoothers, including detailed descriptions of various spline types and GAMs. The student demonstrates a solid grasp of the flexibility and applications of these non-linear modeling techniques. The uncertainty regarding knot selection in splines is specific and reflects a desire for deeper practical knowledge.""
+  },
+  {
+    ""id"": ""sample5.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay clearly summarizes linear model selection and regularization techniques, accurately explaining best subset, stepwise selection, ridge, and lasso. The student demonstrates a good understanding of how these methods enhance model performance and interpretability, with a clear explanation of the bias-variance tradeoff. The uncertainty about preferring ridge over lasso is a pertinent and advanced question.""
+  },
+  {
+    ""id"": ""sample4.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection accurately summarizes resampling methods, particularly cross-validation and the bootstrap, explaining their utility in model accuracy estimation. The student clearly articulates the purpose of these techniques when test sets are unavailable. The uncertainty about choosing between cross-validation and bootstrap is practical and shows good analytical thinking.""
+  },
+  {
+    ""id"": ""sample3.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay provides a concise yet comprehensive summary of decision trees and ensemble methods, clearly explaining the mechanics of each. The student demonstrates strong conceptual understanding by detailing how trees partition space and how ensembles improve accuracy. The outlined uncertainties reflect a thoughtful consideration of practical model selection and hyperparameter tuning.""
+  },
+  {
+    ""id"": ""sample2.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection offers a detailed and technically accurate summary of multiple linear regression and the introduction to logistic regression, including key formulas and statistical concepts. The student demonstrates a strong grasp of the mathematical underpinnings. The articulated uncertainties, particularly regarding multi-class classification and the mechanics of MLE/gradient descent, are insightful and relevant.""
+  },
+  {
+    ""id"": ""sample1.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay effectively summarizes deep learning and neural networks, explaining core concepts like layers, activation functions, and backpropagation. The student demonstrates a good understanding of how these models learn complex relationships. The identified uncertainties regarding hyperparameter tuning, interpretability, and the mechanics of backpropagation are well-chosen and reflect common challenges in the field.""
+  }
+]"
+sample1.pdf,sample1.pdf,9,zeroshot,reversed,8,"The essay effectively summarizes deep learning and neural networks, explaining core concepts like layers, activation functions, and backpropagation. The student demonstrates a good understanding of how these models learn complex relationships. The identified uncertainties regarding hyperparameter tuning, interpretability, and the mechanics of backpropagation are well-chosen and reflect common challenges in the field.",False,"[
+  {
+    ""id"": ""mid_example_copy.pdf"",
+    ""pred_score"": 7,
+    ""justification"": ""This essay demonstrates a good grasp of the core concepts of logistic and discriminant classification, accurately summarizing their key features. The language is clear and the structure is logical, making it easy to follow the student's understanding. The identification of a specific uncertainty regarding the number of groups in logistic classification shows thoughtful engagement with the material.""
+  },
+  {
+    ""id"": ""bad_example_copy.pdf"",
+    ""pred_score"": 2,
+    ""justification"": ""This reflection exhibits a severe lack of understanding of the week's material, with vague descriptions and admissions of not remembering key concepts. The flow is poor, and there's no discernible structure or connection to course topics. The student expresses significant confusion and a lack of engagement, making it difficult to assess any learning.""
+  },
+  {
+    ""id"": ""sample8.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection provides a comprehensive and well-articulated summary of unsupervised learning and PCA, detailing key concepts like eigenvectors and the covariance matrix. The student demonstrates deep understanding by clearly explaining the purpose and derivation of principal components. The identified uncertainties are specific and reflect a higher level of engagement with practical application challenges.""
+  },
+  {
+    ""id"": ""sample7.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay effectively summarizes tree-based methods and ensemble techniques, clearly outlining the principles of decision trees, bagging, random forests, and boosting. The student's understanding of the concepts is evident through detailed explanations and the connection between interpretability and performance. The uncertainty about balancing boosting hyperparameters is insightful and relevant.""
+  },
+  {
+    ""id"": ""sample6.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""This reflection offers a thorough explanation of basis expansions and smoothers, including detailed descriptions of various spline types and GAMs. The student demonstrates a solid grasp of the flexibility and applications of these non-linear modeling techniques. The uncertainty regarding knot selection in splines is specific and reflects a desire for deeper practical knowledge.""
+  },
+  {
+    ""id"": ""sample5.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay clearly summarizes linear model selection and regularization techniques, accurately explaining best subset, stepwise selection, ridge, and lasso. The student demonstrates a good understanding of how these methods enhance model performance and interpretability, with a clear explanation of the bias-variance tradeoff. The uncertainty about preferring ridge over lasso is a pertinent and advanced question.""
+  },
+  {
+    ""id"": ""sample4.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection accurately summarizes resampling methods, particularly cross-validation and the bootstrap, explaining their utility in model accuracy estimation. The student clearly articulates the purpose of these techniques when test sets are unavailable. The uncertainty about choosing between cross-validation and bootstrap is practical and shows good analytical thinking.""
+  },
+  {
+    ""id"": ""sample3.pdf"",
+    ""pred_score"": 9,
+    ""justification"": ""The essay provides a concise yet comprehensive summary of decision trees and ensemble methods, clearly explaining the mechanics of each. The student demonstrates strong conceptual understanding by detailing how trees partition space and how ensembles improve accuracy. The outlined uncertainties reflect a thoughtful consideration of practical model selection and hyperparameter tuning.""
+  },
+  {
+    ""id"": ""sample2.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""This reflection offers a detailed and technically accurate summary of multiple linear regression and the introduction to logistic regression, including key formulas and statistical concepts. The student demonstrates a strong grasp of the mathematical underpinnings. The articulated uncertainties, particularly regarding multi-class classification and the mechanics of MLE/gradient descent, are insightful and relevant.""
+  },
+  {
+    ""id"": ""sample1.pdf"",
+    ""pred_score"": 8,
+    ""justification"": ""The essay effectively summarizes deep learning and neural networks, explaining core concepts like layers, activation functions, and backpropagation. The student demonstrates a good understanding of how these models learn complex relationships. The identified uncertainties regarding hyperparameter tuning, interpretability, and the mechanics of backpropagation are well-chosen and reflect common challenges in the field.""
+  }
+]"
