@@ -14,7 +14,7 @@ By: Arnav Palkhiwala, Mohit Mohanraj, Maxx Ferrian
 <h2> What are we testing for (ONLY changing one at a time)?: </h2>
 
 - Order - does the order in which the resumes/essays are submitted impact how they’re scored?
-- LLM Quality Eval - can an LLM accurately score and understand the quality of the input with and without examples? (Zero vs. Few Shot Prompting)
+- LLM Quality Eval - can an LLM accurately score and understand the quality of the input with and without examples? (Zero vs. Few-Shot Prompting)
 
 
 
