@@ -1,201 +1,301 @@
-sample_name          ,fewshot_original ,fewshot_reversed ,zeroshot_original ,zeroshot_reversed
-essay0.docx          ,               1 ,               1 ,                3 ,                3
-essay1.docx          ,               1 ,               1 ,                2 ,                2
-essay10.docx         ,               3 ,               2 ,                3 ,                4
-essay11.docx         ,               2 ,               2 ,                3 ,                3
-essay12.docx         ,               2 ,               3 ,                4 ,                3
-essay13.docx         ,               1 ,               1 ,                2 ,                3
-essay14.docx         ,               4 ,               4 ,                4 ,                6
-essay15.docx         ,               3 ,               3 ,                3 ,                4
-essay16.docx         ,               4 ,               4 ,                5 ,                6
-essay17.docx         ,               3 ,               2 ,                4 ,                4
-essay18.docx         ,               3 ,               3 ,                4 ,                4
-essay19.docx         ,               3 ,               3 ,                4 ,                3
-essay2.docx          ,               2 ,               1 ,                2 ,                2
-essay20.docx         ,               2 ,               2 ,                4 ,                3
-essay21.docx         ,               3 ,               3 ,                5 ,                4
-essay22.docx         ,               2 ,               2 ,                2 ,                4
-essay23.docx         ,               2 ,               2 ,                3 ,                2
-essay24.docx         ,               3 ,               3 ,                3 ,                3
-essay25.docx         ,               5 ,               6 ,                9 ,                8
-essay26.docx         ,               5 ,               4 ,                7 ,                6
-essay27.docx         ,               3 ,               4 ,                4 ,                6
-essay28.docx         ,               6 ,               6 ,                7 ,                6
-essay29.docx         ,               5 ,               4 ,                8 ,                8
-essay3.docx          ,               1 ,               2 ,                2 ,                2
-essay30.docx         ,               3 ,               5 ,                6 ,                8
-essay31.docx         ,               5 ,               5 ,                6 ,                7
-essay32.docx         ,               3 ,               4 ,                5 ,                6
-essay33.docx         ,               5 ,               6 ,                7 ,                7
-essay34.docx         ,               4 ,               4 ,                5 ,                6
-essay35.docx         ,               4 ,               5 ,                6 ,                7
-essay36.docx         ,               3 ,               2 ,                5 ,                4
-essay37.docx         ,               7 ,               4 ,                4 ,                6
-essay38.docx         ,               3 ,               4 ,                5 ,                6
-essay39.docx         ,               2 ,               3 ,                2 ,                4
-essay4.docx          ,               1 ,               2 ,                3 ,                3
-essay40.docx         ,               2 ,               4 ,                3 ,                5
-essay41.docx         ,               2 ,               4 ,                4 ,                5
-essay42.docx         ,               4 ,               6 ,                5 ,                7
-essay43.docx         ,               3 ,               2 ,                2 ,                4
-essay44.docx         ,               6 ,               6 ,                8 ,                7
-essay45.docx         ,               7 ,               4 ,                6 ,                6
-essay46.docx         ,               5 ,               6 ,                7 ,                7
-essay47.docx         ,               4 ,               5 ,                4 ,                6
-essay48.docx         ,               6 ,               5 ,                6 ,                5
-essay49.docx         ,               4 ,               6 ,                6 ,                6
-essay5.docx          ,               1 ,               2 ,                2 ,                3
-essay50.docx         ,               6 ,               4 ,                7 ,                6
-essay51.docx         ,               4 ,               6 ,                7 ,                8
-essay52.docx         ,               2 ,               3 ,                3 ,                3
-essay53.docx         ,               4 ,               6 ,                7 ,                6
-essay54.docx         ,               3 ,               4 ,                6 ,                7
-essay55.docx         ,               2 ,               2 ,                3 ,                3
-essay56.docx         ,               3 ,               3 ,                4 ,                4
-essay57.docx         ,               3 ,               3 ,                4 ,                4
-essay58.docx         ,               6 ,               5 ,                7 ,                7
-essay59.docx         ,               4 ,               3 ,                4 ,                5
-essay6.docx          ,               2 ,               2 ,                3 ,                4
-essay60.docx         ,               6 ,               6 ,                5 ,                6
-essay61.docx         ,               7 ,               6 ,                7 ,                7
-essay62.docx         ,               8 ,               8 ,                8 ,                9
-essay63.docx         ,               9 ,               6 ,                8 ,                8
-essay64.docx         ,               6 ,               8 ,                8 ,                9
-essay65.docx         ,               7 ,               8 ,                8 ,                9
-essay66.docx         ,               9 ,               8 ,                9 ,                9
-essay67.docx         ,               9 ,               8 ,                9 ,                9
-essay68.docx         ,               6 ,               7 ,                7 ,                7
-essay69.docx         ,               7 ,               8 ,                9 ,                9
-essay7.docx          ,               3 ,               3 ,                6 ,                4
-essay70.docx         ,               6 ,               8 ,                9 ,                9
-essay71.docx         ,               7 ,               7 ,                7 ,                8
-essay72.docx         ,               4 ,               2 ,                8 ,                8
-essay73.docx         ,               6 ,               7 ,                7 ,                8
-essay74.docx         ,               8 ,               7 ,                8 ,                8
-essay75.docx         ,               4 ,               4 ,                4 ,                5
-essay76.docx         ,               7 ,               8 ,                8 ,                9
-essay77.docx         ,               3 ,               6 ,                6 ,                8
-essay78.docx         ,               3 ,               4 ,                6 ,                5
-essay79.docx         ,               9 ,               9 ,                9 ,                9
-essay8.docx          ,               2 ,               3 ,                2 ,                3
-essay80.docx         ,               8 ,               9 ,                8 ,                8
-essay81.docx         ,               7 ,               7 ,                8 ,                5
-essay82.docx         ,               7 ,               8 ,                6 ,                8
-essay83.docx         ,               7 ,               6 ,                5 ,                4
-essay84.docx         ,               4 ,               7 ,                7 ,                8
-essay85.docx         ,               1 ,               2 ,                2 ,                2
-essay86.docx         ,               1 ,               2 ,                2 ,                2
-essay87.docx         ,               1 ,               2 ,                2 ,                1
-essay88.docx         ,               2 ,               2 ,                3 ,                3
-essay89.docx         ,               2 ,               3 ,                3 ,                2
-essay9.docx          ,               2 ,               3 ,                4 ,                5
-essay90.docx         ,               5 ,               4 ,                4 ,                5
-essay91.docx         ,               2 ,               2 ,                5 ,                5
-essay92.docx         ,               3 ,               3 ,                5 ,                5
-essay93.docx         ,               2 ,               2 ,                4 ,                6
-essay94.docx         ,               6 ,               4 ,                7 ,                6
-essay95.docx         ,               5 ,               4 ,                6 ,                7
-essay96.docx         ,               6 ,               5 ,                5 ,                5
-essay97.docx         ,               5 ,               4 ,                5 ,                5
-essay98.docx         ,               4 ,               4 ,                4 ,                5
-essay99.docx         ,               4 ,               4 ,                6 ,                5
-researchpaper0.docx  ,              10 ,              10 ,                8 ,                9
-researchpaper1.docx  ,              10 ,               9 ,                8 ,                9
-researchpaper10.docx ,               9 ,              10 ,                9 ,                9
-researchpaper11.docx ,              10 ,              10 ,                9 ,                9
-researchpaper12.docx ,              10 ,              10 ,               10 ,                9
-researchpaper13.docx ,              10 ,              10 ,                7 ,                9
-researchpaper14.docx ,              10 ,              10 ,                9 ,               10
-researchpaper15.docx ,              10 ,              10 ,                9 ,                9
-researchpaper16.docx ,              10 ,              10 ,                9 ,                9
-researchpaper17.docx ,              10 ,              10 ,                9 ,                9
-researchpaper18.docx ,              10 ,              10 ,               10 ,                9
-researchpaper19.docx ,              10 ,              10 ,                9 ,               10
-researchpaper2.docx  ,              10 ,              10 ,                9 ,                9
-researchpaper20.docx ,              10 ,              10 ,                9 ,                9
-researchpaper21.docx ,              10 ,              10 ,                9 ,                9
-researchpaper22.docx ,              10 ,              10 ,                9 ,                9
-researchpaper23.docx ,              10 ,              10 ,                9 ,                9
-researchpaper24.docx ,              10 ,              10 ,                8 ,                8
-researchpaper25.docx ,              10 ,              10 ,                9 ,                9
-researchpaper26.docx ,              10 ,              10 ,               10 ,                9
-researchpaper27.docx ,              10 ,              10 ,                9 ,                9
-researchpaper28.docx ,              10 ,              10 ,                9 ,                8
-researchpaper29.docx ,              10 ,              10 ,                9 ,               10
-researchpaper3.docx  ,              10 ,              10 ,                9 ,                9
-researchpaper30.docx ,              10 ,              10 ,               10 ,                9
-researchpaper31.docx ,              10 ,              10 ,                9 ,                9
-researchpaper32.docx ,              10 ,              10 ,               10 ,                9
-researchpaper33.docx ,              10 ,              10 ,                9 ,                9
-researchpaper34.docx ,              10 ,              10 ,                9 ,                9
-researchpaper35.docx ,              10 ,              10 ,                9 ,                9
-researchpaper36.docx ,              10 ,              10 ,               10 ,                9
-researchpaper37.docx ,               9 ,              10 ,                8 ,                9
-researchpaper38.docx ,              10 ,              10 ,                9 ,                7
-researchpaper39.docx ,              10 ,              10 ,                9 ,                9
-researchpaper4.docx  ,              10 ,              10 ,                9 ,               10
-researchpaper40.docx ,              10 ,              10 ,                8 ,                9
-researchpaper41.docx ,              10 ,              10 ,                9 ,                9
-researchpaper42.docx ,               3 ,               6 ,                3 ,                4
-researchpaper43.docx ,              10 ,              10 ,               10 ,                9
-researchpaper44.docx ,              10 ,              10 ,               10 ,               10
-researchpaper45.docx ,              10 ,              10 ,                9 ,                9
-researchpaper46.docx ,              10 ,              10 ,               10 ,                9
-researchpaper47.docx ,              10 ,              10 ,                9 ,                9
-researchpaper48.docx ,              10 ,              10 ,                9 ,                9
-researchpaper49.docx ,              10 ,               9 ,                8 ,                9
-researchpaper5.docx  ,              10 ,              10 ,               10 ,                9
-researchpaper50.docx ,              10 ,              10 ,                9 ,                9
-researchpaper51.docx ,               8 ,               9 ,                7 ,                7
-researchpaper52.docx ,              10 ,              10 ,                9 ,                9
-researchpaper53.docx ,              10 ,              10 ,                9 ,                9
-researchpaper54.docx ,              10 ,              10 ,                9 ,                9
-researchpaper55.docx ,              10 ,              10 ,                9 ,                9
-researchpaper56.docx ,              10 ,              10 ,                9 ,                9
-researchpaper57.docx ,              10 ,              10 ,                8 ,                9
-researchpaper58.docx ,              10 ,              10 ,               10 ,                9
-researchpaper59.docx ,              10 ,              10 ,                9 ,                9
-researchpaper6.docx  ,              10 ,              10 ,                7 ,                9
-researchpaper60.docx ,              10 ,              10 ,               10 ,                9
-researchpaper61.docx ,              10 ,              10 ,                9 ,                9
-researchpaper62.docx ,              10 ,              10 ,                9 ,               10
-researchpaper63.docx ,              10 ,              10 ,               10 ,               10
-researchpaper64.docx ,              10 ,              10 ,                8 ,                9
-researchpaper65.docx ,              10 ,              10 ,                9 ,               10
-researchpaper66.docx ,              10 ,              10 ,                9 ,                9
-researchpaper67.docx ,              10 ,              10 ,               10 ,                9
-researchpaper68.docx ,              10 ,              10 ,                9 ,                9
-researchpaper69.docx ,              10 ,              10 ,                9 ,                9
-researchpaper7.docx  ,              10 ,              10 ,                6 ,                9
-researchpaper70.docx ,              10 ,              10 ,                9 ,                9
-researchpaper71.docx ,              10 ,              10 ,                8 ,                9
-researchpaper72.docx ,              10 ,              10 ,               10 ,                9
-researchpaper73.docx ,              10 ,              10 ,               10 ,               10
-researchpaper74.docx ,              10 ,              10 ,               10 ,               10
-researchpaper75.docx ,              10 ,              10 ,                9 ,                9
-researchpaper76.docx ,              10 ,              10 ,                9 ,               10
-researchpaper77.docx ,              10 ,              10 ,                9 ,                9
-researchpaper78.docx ,               8 ,              10 ,                8 ,                8
-researchpaper79.docx ,              10 ,              10 ,                8 ,               10
-researchpaper8.docx  ,              10 ,              10 ,                9 ,               10
-researchpaper80.docx ,              10 ,              10 ,                9 ,                9
-researchpaper81.docx ,              10 ,              10 ,                9 ,               10
-researchpaper82.docx ,              10 ,              10 ,                9 ,                9
-researchpaper83.docx ,              10 ,              10 ,                9 ,                9
-researchpaper84.docx ,              10 ,              10 ,                9 ,                9
-researchpaper85.docx ,              10 ,              10 ,                9 ,                9
-researchpaper86.docx ,              10 ,               6 ,                3 ,                6
-researchpaper87.docx ,              10 ,              10 ,               10 ,                9
-researchpaper88.docx ,              10 ,              10 ,               10 ,                9
-researchpaper89.docx ,              10 ,              10 ,                9 ,               10
-researchpaper9.docx  ,              10 ,              10 ,                9 ,                8
-researchpaper90.docx ,              10 ,              10 ,                9 ,                6
-researchpaper91.docx ,              10 ,              10 ,                4 ,                8
-researchpaper92.docx ,              10 ,              10 ,                9 ,               10
-researchpaper93.docx ,              10 ,              10 ,                8 ,                7
-researchpaper94.docx ,              10 ,              10 ,                9 ,                9
-researchpaper95.docx ,              10 ,              10 ,               10 ,                8
-researchpaper96.docx ,              10 ,              10 ,                9 ,                9
-researchpaper97.docx ,              10 ,              10 ,                9 ,                9
-researchpaper98.docx ,              10 ,              10 ,                9 ,                9
-researchpaper99.docx ,              10 ,              10 ,                9 ,                9
+sample_name,fewshot_original,fewshot_reversed,zeroshot_original,zeroshot_reversed
+Average Essays/average_essay_0.docx,5,5,6,5
+Average Essays/average_essay_1.docx,6,7,7,8
+Average Essays/average_essay_10.docx,9,6,8,7
+Average Essays/average_essay_11.docx,7,6,7,7
+Average Essays/average_essay_12.docx,8,6,7,7
+Average Essays/average_essay_13.docx,8,8,7,7
+Average Essays/average_essay_14.docx,6,7,6,7
+Average Essays/average_essay_15.docx,9,8,7,8
+Average Essays/average_essay_16.docx,7,6,8,8
+Average Essays/average_essay_17.docx,5,5,5,4
+Average Essays/average_essay_18.docx,6,7,7,6
+Average Essays/average_essay_19.docx,5,5,5,5
+Average Essays/average_essay_2.docx,7,6,8,7
+Average Essays/average_essay_20.docx,8,9,8,7
+Average Essays/average_essay_21.docx,4,4,3,6
+Average Essays/average_essay_22.docx,2,1,2,2
+Average Essays/average_essay_23.docx,8,8,7,7
+Average Essays/average_essay_24.docx,9,8,7,8
+Average Essays/average_essay_25.docx,4,6,5,6
+Average Essays/average_essay_26.docx,7,7,7,7
+Average Essays/average_essay_27.docx,7,7,7,6
+Average Essays/average_essay_28.docx,8,7,8,7
+Average Essays/average_essay_29.docx,6,5,5,5
+Average Essays/average_essay_3.docx,8,8,7,8
+Average Essays/average_essay_30.docx,5,5,5,5
+Average Essays/average_essay_31.docx,5,7,5,6
+Average Essays/average_essay_32.docx,7,6,6,5
+Average Essays/average_essay_33.docx,5,7,6,7
+Average Essays/average_essay_34.docx,4,4,5,5
+Average Essays/average_essay_35.docx,5,4,5,6
+Average Essays/average_essay_36.docx,6,5,5,5
+Average Essays/average_essay_37.docx,6,6,5,5
+Average Essays/average_essay_38.docx,8,6,7,6
+Average Essays/average_essay_39.docx,4,6,5,5
+Average Essays/average_essay_4.docx,6,7,7,6
+Average Essays/average_essay_40.docx,8,8,8,9
+Average Essays/average_essay_41.docx,8,7,7,7
+Average Essays/average_essay_42.docx,7,5,7,6
+Average Essays/average_essay_43.docx,8,8,8,9
+Average Essays/average_essay_44.docx,8,8,8,8
+Average Essays/average_essay_45.docx,7,8,8,7
+Average Essays/average_essay_46.docx,8,7,8,7
+Average Essays/average_essay_47.docx,9,9,9,9
+Average Essays/average_essay_48.docx,8,8,8,7
+Average Essays/average_essay_49.docx,6,7,7,7
+Average Essays/average_essay_5.docx,6,8,7,7
+Average Essays/average_essay_50.docx,8,7,8,8
+Average Essays/average_essay_51.docx,8,8,8,7
+Average Essays/average_essay_52.docx,8,6,7,8
+Average Essays/average_essay_53.docx,9,8,9,9
+Average Essays/average_essay_54.docx,8,8,8,8
+Average Essays/average_essay_55.docx,9,9,8,9
+Average Essays/average_essay_56.docx,6,7,6,7
+Average Essays/average_essay_57.docx,8,8,7,7
+Average Essays/average_essay_58.docx,7,7,7,7
+Average Essays/average_essay_59.docx,7,7,7,6
+Average Essays/average_essay_6.docx,6,5,6,6
+Average Essays/average_essay_60.docx,7,7,7,7
+Average Essays/average_essay_61.docx,8,9,8,8
+Average Essays/average_essay_62.docx,7,6,7,7
+Average Essays/average_essay_63.docx,7,6,7,5
+Average Essays/average_essay_64.docx,7,8,7,7
+Average Essays/average_essay_65.docx,8,9,8,9
+Average Essays/average_essay_66.docx,8,8,8,8
+Average Essays/average_essay_67.docx,7,6,7,8
+Average Essays/average_essay_68.docx,8,7,8,8
+Average Essays/average_essay_69.docx,8,8,8,8
+Average Essays/average_essay_7.docx,7,8,9,8
+Average Essays/average_essay_70.docx,9,9,7,8
+Average Essays/average_essay_71.docx,7,8,7,8
+Average Essays/average_essay_72.docx,7,8,7,8
+Average Essays/average_essay_73.docx,5,7,6,7
+Average Essays/average_essay_74.docx,8,8,9,7
+Average Essays/average_essay_75.docx,8,8,8,8
+Average Essays/average_essay_76.docx,7,8,8,8
+Average Essays/average_essay_77.docx,8,8,7,8
+Average Essays/average_essay_78.docx,8,7,8,9
+Average Essays/average_essay_79.docx,8,8,8,8
+Average Essays/average_essay_8.docx,5,5,8,7
+Average Essays/average_essay_80.docx,9,9,9,9
+Average Essays/average_essay_81.docx,7,8,8,7
+Average Essays/average_essay_82.docx,8,8,7,9
+Average Essays/average_essay_83.docx,9,8,8,8
+Average Essays/average_essay_84.docx,7,8,8,7
+Average Essays/average_essay_85.docx,7,8,8,8
+Average Essays/average_essay_86.docx,8,7,8,7
+Average Essays/average_essay_87.docx,8,7,8,8
+Average Essays/average_essay_88.docx,8,8,7,8
+Average Essays/average_essay_89.docx,7,6,6,8
+Average Essays/average_essay_9.docx,8,6,8,8
+Average Essays/average_essay_90.docx,7,6,7,7
+Average Essays/average_essay_91.docx,7,8,8,8
+Average Essays/average_essay_92.docx,8,8,9,8
+Average Essays/average_essay_93.docx,7,8,9,9
+Average Essays/average_essay_94.docx,7,7,7,6
+Average Essays/average_essay_95.docx,9,7,8,7
+Average Essays/average_essay_96.docx,9,9,9,9
+Average Essays/average_essay_97.docx,8,8,8,8
+Average Essays/average_essay_98.docx,8,8,8,8
+Average Essays/average_essay_99.docx,8,8,7,8
+Exceptional Essays/researchpaper0.docx,10,10,6,9
+Exceptional Essays/researchpaper1.docx,10,10,9,10
+Exceptional Essays/researchpaper10.docx,10,10,9,9
+Exceptional Essays/researchpaper11.docx,10,10,6,9
+Exceptional Essays/researchpaper12.docx,10,10,10,10
+Exceptional Essays/researchpaper13.docx,10,10,9,10
+Exceptional Essays/researchpaper14.docx,10,10,9,9
+Exceptional Essays/researchpaper15.docx,10,10,9,9
+Exceptional Essays/researchpaper16.docx,10,10,10,9
+Exceptional Essays/researchpaper17.docx,9,9,9,9
+Exceptional Essays/researchpaper18.docx,10,10,10,10
+Exceptional Essays/researchpaper19.docx,10,10,10,9
+Exceptional Essays/researchpaper2.docx,10,10,10,10
+Exceptional Essays/researchpaper20.docx,10,10,9,10
+Exceptional Essays/researchpaper21.docx,10,10,9,8
+Exceptional Essays/researchpaper22.docx,10,10,10,10
+Exceptional Essays/researchpaper23.docx,10,10,10,9
+Exceptional Essays/researchpaper24.docx,10,10,10,10
+Exceptional Essays/researchpaper25.docx,10,10,10,10
+Exceptional Essays/researchpaper26.docx,10,10,10,10
+Exceptional Essays/researchpaper27.docx,10,10,10,9
+Exceptional Essays/researchpaper28.docx,10,10,9,9
+Exceptional Essays/researchpaper29.docx,10,10,9,9
+Exceptional Essays/researchpaper3.docx,10,10,9,10
+Exceptional Essays/researchpaper30.docx,10,10,10,9
+Exceptional Essays/researchpaper31.docx,10,10,9,9
+Exceptional Essays/researchpaper32.docx,10,10,10,10
+Exceptional Essays/researchpaper33.docx,10,10,9,9
+Exceptional Essays/researchpaper34.docx,10,10,10,10
+Exceptional Essays/researchpaper35.docx,10,10,9,9
+Exceptional Essays/researchpaper36.docx,10,10,9,9
+Exceptional Essays/researchpaper37.docx,10,10,9,9
+Exceptional Essays/researchpaper38.docx,10,10,10,10
+Exceptional Essays/researchpaper39.docx,10,10,10,10
+Exceptional Essays/researchpaper4.docx,10,10,10,10
+Exceptional Essays/researchpaper40.docx,10,10,10,8
+Exceptional Essays/researchpaper41.docx,10,10,9,10
+Exceptional Essays/researchpaper42.docx,10,9,2,9
+Exceptional Essays/researchpaper43.docx,10,10,9,10
+Exceptional Essays/researchpaper44.docx,10,10,9,9
+Exceptional Essays/researchpaper45.docx,10,10,8,9
+Exceptional Essays/researchpaper46.docx,10,10,10,10
+Exceptional Essays/researchpaper47.docx,10,10,9,9
+Exceptional Essays/researchpaper48.docx,10,10,9,9
+Exceptional Essays/researchpaper49.docx,10,10,10,9
+Exceptional Essays/researchpaper5.docx,10,10,10,9
+Exceptional Essays/researchpaper50.docx,10,10,10,9
+Exceptional Essays/researchpaper51.docx,9,9,9,9
+Exceptional Essays/researchpaper52.docx,10,10,10,10
+Exceptional Essays/researchpaper53.docx,10,10,10,10
+Exceptional Essays/researchpaper54.docx,10,10,9,9
+Exceptional Essays/researchpaper55.docx,10,10,9,10
+Exceptional Essays/researchpaper56.docx,10,10,9,10
+Exceptional Essays/researchpaper57.docx,10,10,9,9
+Exceptional Essays/researchpaper58.docx,10,10,9,10
+Exceptional Essays/researchpaper59.docx,10,10,9,10
+Exceptional Essays/researchpaper6.docx,10,10,9,9
+Exceptional Essays/researchpaper60.docx,10,10,9,9
+Exceptional Essays/researchpaper61.docx,10,10,10,9
+Exceptional Essays/researchpaper62.docx,10,10,9,10
+Exceptional Essays/researchpaper63.docx,10,10,9,10
+Exceptional Essays/researchpaper64.docx,10,10,10,10
+Exceptional Essays/researchpaper65.docx,10,10,10,9
+Exceptional Essays/researchpaper66.docx,10,10,9,10
+Exceptional Essays/researchpaper67.docx,10,10,10,10
+Exceptional Essays/researchpaper68.docx,10,10,10,9
+Exceptional Essays/researchpaper69.docx,10,10,10,10
+Exceptional Essays/researchpaper7.docx,10,10,9,9
+Exceptional Essays/researchpaper70.docx,10,10,10,10
+Exceptional Essays/researchpaper71.docx,10,10,10,9
+Exceptional Essays/researchpaper72.docx,10,10,10,10
+Exceptional Essays/researchpaper73.docx,10,10,10,10
+Exceptional Essays/researchpaper74.docx,10,10,10,10
+Exceptional Essays/researchpaper75.docx,10,10,10,10
+Exceptional Essays/researchpaper76.docx,10,10,10,10
+Exceptional Essays/researchpaper77.docx,10,10,9,9
+Exceptional Essays/researchpaper78.docx,10,10,9,9
+Exceptional Essays/researchpaper79.docx,10,10,9,10
+Exceptional Essays/researchpaper8.docx,10,10,10,9
+Exceptional Essays/researchpaper80.docx,10,10,10,10
+Exceptional Essays/researchpaper81.docx,10,10,10,9
+Exceptional Essays/researchpaper82.docx,10,10,9,10
+Exceptional Essays/researchpaper83.docx,10,10,9,9
+Exceptional Essays/researchpaper84.docx,10,10,9,9
+Exceptional Essays/researchpaper85.docx,10,10,10,10
+Exceptional Essays/researchpaper86.docx,10,10,2,7
+Exceptional Essays/researchpaper87.docx,10,10,10,10
+Exceptional Essays/researchpaper88.docx,10,10,10,10
+Exceptional Essays/researchpaper89.docx,10,10,9,10
+Exceptional Essays/researchpaper9.docx,10,10,7,9
+Exceptional Essays/researchpaper90.docx,10,10,10,10
+Exceptional Essays/researchpaper91.docx,10,10,9,10
+Exceptional Essays/researchpaper92.docx,10,10,10,9
+Exceptional Essays/researchpaper93.docx,10,10,9,10
+Exceptional Essays/researchpaper94.docx,10,10,9,9
+Exceptional Essays/researchpaper95.docx,10,10,9,9
+Exceptional Essays/researchpaper96.docx,10,10,10,10
+Exceptional Essays/researchpaper97.docx,10,10,10,9
+Exceptional Essays/researchpaper98.docx,10,10,9,10
+Exceptional Essays/researchpaper99.docx,10,10,9,9
+Poor Essays/poor_essay_0.docx,1,1,2,2
+Poor Essays/poor_essay_1.docx,1,1,1,1
+Poor Essays/poor_essay_10.docx,1,2,2,2
+Poor Essays/poor_essay_11.docx,2,1,2,2
+Poor Essays/poor_essay_12.docx,2,2,2,2
+Poor Essays/poor_essay_13.docx,1,1,1,1
+Poor Essays/poor_essay_14.docx,2,3,2,4
+Poor Essays/poor_essay_15.docx,2,2,2,2
+Poor Essays/poor_essay_16.docx,3,3,4,3
+Poor Essays/poor_essay_17.docx,2,2,2,3
+Poor Essays/poor_essay_18.docx,3,2,2,2
+Poor Essays/poor_essay_19.docx,2,2,2,3
+Poor Essays/poor_essay_2.docx,2,2,2,2
+Poor Essays/poor_essay_20.docx,2,2,2,2
+Poor Essays/poor_essay_21.docx,2,2,2,2
+Poor Essays/poor_essay_22.docx,1,2,2,1
+Poor Essays/poor_essay_23.docx,1,2,1,2
+Poor Essays/poor_essay_24.docx,1,2,2,2
+Poor Essays/poor_essay_25.docx,4,4,4,5
+Poor Essays/poor_essay_26.docx,4,3,4,4
+Poor Essays/poor_essay_27.docx,3,3,4,3
+Poor Essays/poor_essay_28.docx,4,3,3,3
+Poor Essays/poor_essay_29.docx,4,3,4,3
+Poor Essays/poor_essay_3.docx,1,1,1,2
+Poor Essays/poor_essay_30.docx,3,3,3,5
+Poor Essays/poor_essay_31.docx,3,3,4,3
+Poor Essays/poor_essay_32.docx,5,3,4,4
+Poor Essays/poor_essay_33.docx,4,4,4,5
+Poor Essays/poor_essay_34.docx,3,3,3,3
+Poor Essays/poor_essay_35.docx,3,3,3,5
+Poor Essays/poor_essay_36.docx,2,2,2,2
+Poor Essays/poor_essay_37.docx,3,3,2,2
+Poor Essays/poor_essay_38.docx,2,3,2,3
+Poor Essays/poor_essay_39.docx,2,2,2,2
+Poor Essays/poor_essay_4.docx,2,1,2,1
+Poor Essays/poor_essay_40.docx,3,2,2,2
+Poor Essays/poor_essay_41.docx,3,3,3,3
+Poor Essays/poor_essay_42.docx,3,3,4,4
+Poor Essays/poor_essay_43.docx,2,2,2,1
+Poor Essays/poor_essay_44.docx,4,3,3,3
+Poor Essays/poor_essay_45.docx,4,4,5,5
+Poor Essays/poor_essay_46.docx,3,3,3,3
+Poor Essays/poor_essay_47.docx,3,3,3,4
+Poor Essays/poor_essay_48.docx,3,3,6,4
+Poor Essays/poor_essay_49.docx,3,3,3,3
+Poor Essays/poor_essay_5.docx,2,1,2,2
+Poor Essays/poor_essay_50.docx,4,3,4,4
+Poor Essays/poor_essay_51.docx,3,2,2,2
+Poor Essays/poor_essay_52.docx,2,2,2,3
+Poor Essays/poor_essay_53.docx,2,3,3,4
+Poor Essays/poor_essay_54.docx,3,3,3,3
+Poor Essays/poor_essay_55.docx,2,2,1,2
+Poor Essays/poor_essay_56.docx,2,3,2,2
+Poor Essays/poor_essay_57.docx,3,2,3,3
+Poor Essays/poor_essay_58.docx,4,4,4,4
+Poor Essays/poor_essay_59.docx,2,2,2,2
+Poor Essays/poor_essay_6.docx,2,1,2,2
+Poor Essays/poor_essay_60.docx,4,3,4,3
+Poor Essays/poor_essay_61.docx,7,5,6,5
+Poor Essays/poor_essay_62.docx,6,6,5,4
+Poor Essays/poor_essay_63.docx,6,5,5,4
+Poor Essays/poor_essay_64.docx,4,6,4,5
+Poor Essays/poor_essay_65.docx,6,5,6,6
+Poor Essays/poor_essay_66.docx,8,6,8,4
+Poor Essays/poor_essay_67.docx,8,4,7,8
+Poor Essays/poor_essay_68.docx,5,4,4,4
+Poor Essays/poor_essay_69.docx,6,5,5,6
+Poor Essays/poor_essay_7.docx,2,2,2,2
+Poor Essays/poor_essay_70.docx,5,6,5,6
+Poor Essays/poor_essay_71.docx,7,6,7,4
+Poor Essays/poor_essay_72.docx,2,2,1,2
+Poor Essays/poor_essay_73.docx,4,4,4,4
+Poor Essays/poor_essay_74.docx,5,4,5,4
+Poor Essays/poor_essay_75.docx,2,1,2,2
+Poor Essays/poor_essay_76.docx,4,4,3,3
+Poor Essays/poor_essay_77.docx,2,3,2,3
+Poor Essays/poor_essay_78.docx,2,3,2,2
+Poor Essays/poor_essay_79.docx,6,8,3,8
+Poor Essays/poor_essay_8.docx,2,2,1,2
+Poor Essays/poor_essay_80.docx,6,8,6,5
+Poor Essays/poor_essay_81.docx,6,5,5,5
+Poor Essays/poor_essay_82.docx,3,2,4,5
+Poor Essays/poor_essay_83.docx,5,4,3,3
+Poor Essays/poor_essay_84.docx,6,4,5,4
+Poor Essays/poor_essay_85.docx,2,1,2,1
+Poor Essays/poor_essay_86.docx,1,1,1,2
+Poor Essays/poor_essay_87.docx,1,1,1,1
+Poor Essays/poor_essay_88.docx,2,2,2,2
+Poor Essays/poor_essay_89.docx,2,2,2,2
+Poor Essays/poor_essay_9.docx,2,2,2,2
+Poor Essays/poor_essay_90.docx,4,3,3,4
+Poor Essays/poor_essay_91.docx,3,4,3,4
+Poor Essays/poor_essay_92.docx,2,1,2,2
+Poor Essays/poor_essay_93.docx,3,2,3,2
+Poor Essays/poor_essay_94.docx,4,3,4,4
+Poor Essays/poor_essay_95.docx,3,4,3,4
+Poor Essays/poor_essay_96.docx,4,4,5,2
+Poor Essays/poor_essay_97.docx,3,3,3,4
+Poor Essays/poor_essay_98.docx,3,2,3,3
+Poor Essays/poor_essay_99.docx,4,4,4,4

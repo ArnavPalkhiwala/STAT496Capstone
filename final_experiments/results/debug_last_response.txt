@@ -1,0 +1,28 @@
+len(raw)=1309
+
+--- FULL RAW ---
+[
+  {
+    "id": "Exceptional Essays/researchpaper66.docx",
+    "pred_score": 10,
+    "justification": "This is an exemplary academic paper that demonstrates a sophisticated command of language, deep conceptual knowledge, and a flawlessly logical progression of ideas regarding reinforcement learning and spatial navigation."
+  },
+  {
+    "id": "Poor Essays/poor_essay_60.docx",
+    "pred_score": 3,
+    "justification": "The writing is extremely simplistic, featuring repetitive sentence patterns and a significant lack of substantive analysis or depth regarding the subject matter."
+  },
+  {
+    "id": "Poor Essays/poor_essay_74.docx",
+    "pred_score": 4,
+    "justification": "Although the narrative arc is complete, the prose is juvenile and lacks the structural complexity and thematic depth expected in high-quality essay writing."
+  },
+  {
+    "id": "Average Essays/average_essay_11.docx",
+    "pred_score": 7,
+    "justification": "This is a well-organized personal narrative that effectively connects a practical classroom experience with thoughtful reflections on social judgment and empathy."
+  },
+  {
+    "id": "Exceptional Essays/researchpaper81.docx",
+    "pred_score": 10,
+    "justification": "This is a masterfully written technical document that exhibits exceptional clarity, precise medical
