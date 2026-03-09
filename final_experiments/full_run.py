@@ -15,6 +15,7 @@ from docx import Document
 
 # --- Gemini SDK (new) ---
 from google import genai
+from google.genai.errors import ServerError as GenaiServerError
 
 
 # =========================
@@ -281,9 +282,9 @@ def validate_list(arr: Any, expected_ids: List[str]) -> List[Dict[str, Any]]:
 
 @retry(
     reraise=True,
-    stop=stop_after_attempt(5),
-    wait=wait_exponential(multiplier=1, min=2, max=20),
-    retry=retry_if_exception_type((GeminiJSONError, RuntimeError, TimeoutError, ConnectionError)),
+    stop=stop_after_attempt(8),
+    wait=wait_exponential(multiplier=2, min=4, max=60),
+    retry=retry_if_exception_type((GeminiJSONError, RuntimeError, TimeoutError, ConnectionError, GenaiServerError)),
 )
 def grade_many(client: genai.Client, model: str, prompt: str, expected_ids: List[str],
                temperature: float = 1.0, max_output_tokens: int = 8192) -> List[Dict[str, Any]]:
@@ -345,23 +346,25 @@ def run_grading_one_call(
 
     # Use path relative to base_dir so same filename in different folders (e.g. Average vs Poor) stay distinct
     ids = [str(p.relative_to(base_dir)) for p in seq]
-    essays = [(sid, sample_texts[sid]) for sid in ids]
+    # Anonymous IDs for the prompt so the LLM cannot infer quality from path (e.g. "Poor Essays/...")
+    anonymous_ids = [str(i + 1) for i in range(len(ids))]
+    essays_for_prompt = [(anon_id, sample_texts[sid]) for anon_id, sid in zip(anonymous_ids, ids)]
 
     if mode == "fewshot":
         prompt = build_fewshot_prompt_multi(
             anchor_exceptional=calib["exceptional"],
             anchor_average=calib["average"],
             anchor_poor=calib["poor"],
-            essays=essays,
+            essays=essays_for_prompt,
         )
     else:
-        prompt = build_zeroshot_prompt_multi(essays)
+        prompt = build_zeroshot_prompt_multi(essays_for_prompt)
 
     graded = grade_many(
         client=client,
         model=model,
         prompt=prompt,
-        expected_ids=ids,
+        expected_ids=anonymous_ids,
         temperature=temperature,
         max_output_tokens=8192,
     )
@@ -369,8 +372,8 @@ def run_grading_one_call(
     rows = []
     for idx, g in enumerate(graded):
         rows.append({
-            "id": g["id"],
-            "sample_name": g["id"],
+            "id": ids[idx],
+            "sample_name": ids[idx],
             "position_in_run": idx,
             "mode": mode,
             "order": order,
