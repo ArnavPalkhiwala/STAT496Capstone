@@ -1,5 +1,7 @@
 # STAT 496 Capstone - Stability of LLM-Based Essay Scoring Under Input Reordering and Few-Shot Prompting
 
+## By: Arnav Palkhiwala, Mohit Mohanraj, Maxx Ferrian 
+
 This repository contains the experiments, data, and analysis for our project studying **how stable LLM essay grading is when prompt structure changes**.
 
 ## Project Goal
