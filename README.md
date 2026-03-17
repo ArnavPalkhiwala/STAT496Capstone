@@ -71,6 +71,7 @@ STAT496Capstone
 │
 ├── ProjectIdeas.txt
 └── README.md
+└──final_paper.pdf
 ```
 
 ## Folder Descriptions
